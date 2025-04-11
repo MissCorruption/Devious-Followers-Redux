@@ -1,7 +1,7 @@
 FormKey: 4102B2:DeviousFollowers.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: DFR__TIF__0A4102B2
+  - Name: DFRX_TIF_0A1376CE
 Flags:
   Flags:
   - Goodbye

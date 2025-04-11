@@ -1,7 +1,7 @@
 FormKey: 1B0C5B:DeviousFollowers.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: TIF_Dflow_081B0C5B
+  - Name: DFRX_TIF_081B0C5B
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: Fac
@@ -45,10 +45,10 @@ VirtualMachineAdapter:
       Object: 0750BA:Skyrim.esm
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: TIF_Dflow_081B0C5B
+    FileName: DFRX_TIF_081B0C5B
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: TIF_Dflow_081B0C5B
+      ScriptName: DFRX_TIF_081B0C5B
       FragmentName: Fragment_2
 Flags:
   Flags:

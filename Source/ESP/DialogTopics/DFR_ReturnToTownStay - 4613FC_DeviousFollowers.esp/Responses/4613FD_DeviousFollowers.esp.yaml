@@ -2,13 +2,13 @@ FormKey: 4613FD:DeviousFollowers.esp
 VersionControl: 12642
 VirtualMachineAdapter:
   Scripts:
-  - Name: DFR__TIF__0A4613FD
+  - Name: DFRX_TIF_0A4613FD
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: DFR__TIF__0A4613FD
+    FileName: DFRX_TIF_0A4613FD
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: DFR__TIF__0A4613FD
+      ScriptName: DFRX_TIF_0A4613FD
       FragmentName: Fragment_0
 Flags:
   Flags:

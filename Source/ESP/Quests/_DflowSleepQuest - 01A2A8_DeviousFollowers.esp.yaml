@@ -34,11 +34,11 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: _DflowEnable
       Object: 00C54B:DeviousFollowers.esp
-  - Name: QF_DFlow_0A01A2A8
-  FileName: QF_DFlow_0A01A2A8
+  - Name: DFRX_TIF_0A1376CE
+  FileName: DFRX_TIF_0A1376CE
   Fragments:
   - Unknown2: 1
-    ScriptName: QF_DFlow_0A01A2A8
+    ScriptName: DFRX_TIF_0A1376CE
     FragmentName: Fragment_0
 Flags:
 - StartGameEnabled

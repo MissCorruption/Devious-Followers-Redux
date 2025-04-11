@@ -1,7 +1,7 @@
 FormKey: 0ECAB6:DeviousFollowers.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: TIF_Dflow_080ECAB6
+  - Name: DFRX_TIF_08075CE9
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: q
@@ -14,14 +14,14 @@ VirtualMachineAdapter:
       Object: 0E53C8:DeviousFollowers.esp
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: TIF_Dflow_080ECAB6
+    FileName: DFRX_TIF_08075CE9
     OnBegin:
       ExtraBindDataVersion: 1
-      ScriptName: TIF_Dflow_080ECAB6
+      ScriptName: DFRX_TIF_08075CE9
       FragmentName: Fragment_4
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: TIF_Dflow_080ECAB6
+      ScriptName: DFRX_TIF_08075CE9
       FragmentName: Fragment_3
 Flags:
   Flags:

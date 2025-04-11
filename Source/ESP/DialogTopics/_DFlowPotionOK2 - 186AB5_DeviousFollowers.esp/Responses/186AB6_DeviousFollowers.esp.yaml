@@ -1,13 +1,13 @@
 FormKey: 186AB6:DeviousFollowers.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: TIF_Dflow_08186AB6
+  - Name: DFRX_TIF_08186AB6
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: TIF_Dflow_08186AB6
+    FileName: DFRX_TIF_08186AB6
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: TIF_Dflow_08186AB6
+      ScriptName: DFRX_TIF_08186AB6
       FragmentName: Fragment_0
 Flags:
   Flags:

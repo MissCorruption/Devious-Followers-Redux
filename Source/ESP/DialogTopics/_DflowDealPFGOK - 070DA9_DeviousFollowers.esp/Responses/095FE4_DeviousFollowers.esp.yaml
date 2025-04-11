@@ -1,7 +1,7 @@
 FormKey: 095FE4:DeviousFollowers.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: TIF_Dflow_09095FE4
+  - Name: DFRX_TIF_08073547
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: _DWillMed
@@ -32,10 +32,10 @@ VirtualMachineAdapter:
       Object: 095FDA:DeviousFollowers.esp
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: TIF_Dflow_09095FE4
+    FileName: DFRX_TIF_08073547
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: TIF_Dflow_09095FE4
+      ScriptName: DFRX_TIF_08073547
       FragmentName: Fragment_0
 Flags:
   Flags:

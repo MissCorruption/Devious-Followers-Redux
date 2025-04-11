@@ -2,7 +2,7 @@ FormKey: 07A50E:Skyrim.esm
 Version2: 10
 VirtualMachineAdapter:
   Scripts:
-  - Name: TIF__0007A50E
+  - Name: DFRX_TIF_0007A50C
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: pDialogueFollower
@@ -15,10 +15,10 @@ VirtualMachineAdapter:
       Object: 05C84C:Skyrim.esm
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: TIF__0007A50E
+    FileName: DFRX_TIF_0007A50C
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: TIF__0007A50E
+      ScriptName: DFRX_TIF_0007A50C
       FragmentName: Fragment_0
 Flags:
   Flags:

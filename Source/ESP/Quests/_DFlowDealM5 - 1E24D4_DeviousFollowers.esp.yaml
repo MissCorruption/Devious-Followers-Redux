@@ -2,7 +2,7 @@ FormKey: 1E24D4:DeviousFollowers.esp
 EditorID: _DFlowDealM5
 VirtualMachineAdapter:
   Scripts:
-  - Name: QF__081E24D4
+  - Name: DFRX_QF_081E24D2
   - Name: _MDDeal
     Properties:
     - MutagenObjectType: ScriptIntProperty
@@ -47,22 +47,22 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerRef
       Object: 000014:Skyrim.esm
-  FileName: QF__081E24D4
+  FileName: DFRX_QF_081E24D2
   Fragments:
   - Unknown2: 1
-    ScriptName: QF__081E24D4
+    ScriptName: DFRX_QF_081E24D2
     FragmentName: Fragment_3
   - Stage: 2
     Unknown2: 1
-    ScriptName: QF__081E24D4
+    ScriptName: DFRX_QF_081E24D2
     FragmentName: Fragment_1
   - Stage: 1
     Unknown2: 1
-    ScriptName: QF__081E24D4
+    ScriptName: DFRX_QF_081E24D2
     FragmentName: Fragment_0
   - Stage: 3
     Unknown2: 1
-    ScriptName: QF__081E24D4
+    ScriptName: DFRX_QF_081E24D2
     FragmentName: Fragment_2
 Flags:
 - StartGameEnabled

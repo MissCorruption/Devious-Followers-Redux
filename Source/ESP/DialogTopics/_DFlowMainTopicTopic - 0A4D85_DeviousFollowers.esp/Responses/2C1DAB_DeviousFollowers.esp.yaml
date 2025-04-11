@@ -1,21 +1,21 @@
 FormKey: 2C1DAB:DeviousFollowers.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: _Dx_TIF__0E2C1DAB
+  - Name: DFRX_TIF_0A38C72A
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: MDC
       Object: 1BD274:DeviousFollowers.esp
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: _Dx_TIF__0E2C1DAB
+    FileName: DFRX_TIF_0A38C72A
     OnBegin:
       ExtraBindDataVersion: 1
-      ScriptName: _Dx_TIF__0E2C1DAB
+      ScriptName: DFRX_TIF_0A38C72A
       FragmentName: Fragment_1
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: _Dx_TIF__0E2C1DAB
+      ScriptName: DFRX_TIF_0A38C72A
       FragmentName: Fragment_0
 Flags: {}
 PreviousDialog: 0A4D88:DeviousFollowers.esp

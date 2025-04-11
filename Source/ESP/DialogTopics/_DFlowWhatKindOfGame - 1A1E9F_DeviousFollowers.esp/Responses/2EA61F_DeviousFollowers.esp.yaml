@@ -1,7 +1,7 @@
 FormKey: 2EA61F:DeviousFollowers.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: _Dx_TIF__092EA61F
+  - Name: DFRX_TIF_08200057
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: Mitts
@@ -47,10 +47,10 @@ VirtualMachineAdapter:
       Object: 03D2D4:Devious Devices - Expansion.esm
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: _Dx_TIF__092EA61F
+    FileName: DFRX_TIF_08200057
     OnBegin:
       ExtraBindDataVersion: 1
-      ScriptName: _Dx_TIF__092EA61F
+      ScriptName: DFRX_TIF_08200057
       FragmentName: Fragment_2
 Flags:
   Flags:

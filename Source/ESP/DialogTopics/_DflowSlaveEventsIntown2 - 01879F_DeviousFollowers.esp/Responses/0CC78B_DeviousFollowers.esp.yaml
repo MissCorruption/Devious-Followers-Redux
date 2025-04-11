@@ -1,7 +1,7 @@
 FormKey: 0CC78B:DeviousFollowers.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: TIF_Dflow_080CC78B
+  - Name: DFRX_TIF_080CC78B
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: TEMP
@@ -14,14 +14,14 @@ VirtualMachineAdapter:
       Object: 00C545:DeviousFollowers.esp
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: TIF_Dflow_080CC78B
+    FileName: DFRX_TIF_080CC78B
     OnBegin:
       ExtraBindDataVersion: 1
-      ScriptName: TIF_Dflow_080CC78B
+      ScriptName: DFRX_TIF_080CC78B
       FragmentName: Fragment_2
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: TIF_Dflow_080CC78B
+      ScriptName: DFRX_TIF_080CC78B
       FragmentName: Fragment_1
 Flags:
   Flags:

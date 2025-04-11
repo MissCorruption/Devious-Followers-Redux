@@ -1,17 +1,17 @@
 FormKey: 2CC003:DeviousFollowers.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: _Dx_TIF__0B2CC003
+  - Name: DFRX_TIF_0B2CC001
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: _Dx_TIF__0B2CC003
+    FileName: DFRX_TIF_0B2CC001
     OnBegin:
       ExtraBindDataVersion: 1
-      ScriptName: _Dx_TIF__0B2CC003
+      ScriptName: DFRX_TIF_0B2CC001
       FragmentName: Fragment_1
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: _Dx_TIF__0B2CC003
+      ScriptName: DFRX_TIF_0B2CC001
       FragmentName: Fragment_0
 Flags:
   Flags:

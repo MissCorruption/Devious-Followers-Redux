@@ -1,7 +1,7 @@
 FormKey: 1B33FF:DeviousFollowers.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: TIF_Dflow_081B33FF
+  - Name: DFRX_TIF_081B33FF
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: _DflowDebtPerDay
@@ -17,10 +17,10 @@ VirtualMachineAdapter:
       Object: 00C548:DeviousFollowers.esp
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: TIF_Dflow_081B33FF
+    FileName: DFRX_TIF_081B33FF
     OnBegin:
       ExtraBindDataVersion: 1
-      ScriptName: TIF_Dflow_081B33FF
+      ScriptName: DFRX_TIF_081B33FF
       FragmentName: Fragment_1
 Flags: {}
 PreviousDialog: Null

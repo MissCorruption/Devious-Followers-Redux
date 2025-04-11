@@ -1,7 +1,7 @@
 FormKey: 1ABD16:DeviousFollowers.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: TIF_Dflow_081ABD16
+  - Name: DFRX_TIF_081ABD16
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: Guard1
@@ -13,10 +13,10 @@ VirtualMachineAdapter:
       Alias: 0
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: TIF_Dflow_081ABD16
+    FileName: DFRX_TIF_081ABD16
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: TIF_Dflow_081ABD16
+      ScriptName: DFRX_TIF_081ABD16
       FragmentName: Fragment_0
 Flags:
   Flags:

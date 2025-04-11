@@ -1,17 +1,17 @@
 FormKey: 303B8D:DeviousFollowers.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: _Dx_TIF__09303B8D
+  - Name: DFRX_TIF_0B022445
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: tool
       Object: 01210D:DeviousFollowers.esp
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: _Dx_TIF__09303B8D
+    FileName: DFRX_TIF_0B022445
     OnBegin:
       ExtraBindDataVersion: 1
-      ScriptName: _Dx_TIF__09303B8D
+      ScriptName: DFRX_TIF_0B022445
       FragmentName: Fragment_4
 Flags:
   Flags:

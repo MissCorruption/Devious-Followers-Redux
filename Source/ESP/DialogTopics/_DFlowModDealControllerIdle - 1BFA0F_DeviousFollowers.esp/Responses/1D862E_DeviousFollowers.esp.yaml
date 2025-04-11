@@ -1,7 +1,7 @@
 FormKey: 1D862E:DeviousFollowers.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: TIF_Dflow_081D862E
+  - Name: DFRX_TIF_081D862E
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerRef
@@ -26,10 +26,10 @@ VirtualMachineAdapter:
       Object: 00F624:Devious Devices - Integration.esm
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: TIF_Dflow_081D862E
+    FileName: DFRX_TIF_081D862E
     OnBegin:
       ExtraBindDataVersion: 1
-      ScriptName: TIF_Dflow_081D862E
+      ScriptName: DFRX_TIF_081D862E
       FragmentName: Fragment_8
 Flags:
   Flags:

@@ -1,7 +1,7 @@
 FormKey: 0A4D8D:DeviousFollowers.esp
 VirtualMachineAdapter:
   Scripts:
-  - Name: TIF_Dflow_080A4D8D
+  - Name: DFRX_TIF_0A39BAAC
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: _DFlowWelcome
@@ -11,14 +11,14 @@ VirtualMachineAdapter:
       Object: 00EB21:DeviousFollowers.esp
   ScriptFragments:
     MutagenObjectType: ScriptFragments
-    FileName: TIF_Dflow_080A4D8D
+    FileName: DFRX_TIF_0A39BAAC
     OnBegin:
       ExtraBindDataVersion: 1
-      ScriptName: TIF_Dflow_080A4D8D
+      ScriptName: DFRX_TIF_0A39BAAC
       FragmentName: Fragment_1
     OnEnd:
       ExtraBindDataVersion: 1
-      ScriptName: TIF_Dflow_080A4D8D
+      ScriptName: DFRX_TIF_0A39BAAC
       FragmentName: Fragment_0
 Flags:
   Flags:
