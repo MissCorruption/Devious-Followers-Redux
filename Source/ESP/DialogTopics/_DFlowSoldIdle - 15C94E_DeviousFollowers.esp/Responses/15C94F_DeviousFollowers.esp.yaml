@@ -1,0 +1,106 @@
+FormKey: 15C94F:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_0815C94F
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: s
+      Object: 15A1A4:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_0815C94F
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0815C94F
+      FragmentName: Fragment_1
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0815C94F
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - ForceSubtitle
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: What a pretty little slave... Is she for sale?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 3272C5:DeviousFollowers.esp
+  ComparisonValue: 3
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 0B8A73:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 05C84E:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 15A1A4:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741852384
+    VariableName: ::Enable_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 15A1A4:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741852352
+    VariableName: ::Timer_var
+  ComparisonValue: 000039:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 010617:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741852320
+    VariableName: ::Suspend_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 05C84D:Skyrim.esm
+  ComparisonValue: -2
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetFactionRankConditionData
+    Faction: 0BCC9A:Skyrim.esm
+  ComparisonValue: -2

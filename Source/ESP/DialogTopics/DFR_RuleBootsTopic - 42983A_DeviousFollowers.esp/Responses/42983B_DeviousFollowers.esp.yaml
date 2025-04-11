@@ -1,0 +1,35 @@
+FormKey: 42983B:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A42983B
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A42983B
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A42983B
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Boot Rule Removal
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 354BDF:DeviousFollowers.esp
+  ComparisonValue: 000814:Adversity Framework.esm

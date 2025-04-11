@@ -1,0 +1,41 @@
+FormKey: 39187E:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A39187E
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A39187E
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A39187E
+      FragmentName: Fragment_2
+Flags: {}
+PreviousDialog: 1173BC:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 1173B4:DeviousFollowers.esp
+- 1173BD:DeviousFollowers.esp
+- 1173B3:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Yes, slave?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 112478:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741860128
+    VariableName: ::Enabled_var
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: About my gold?

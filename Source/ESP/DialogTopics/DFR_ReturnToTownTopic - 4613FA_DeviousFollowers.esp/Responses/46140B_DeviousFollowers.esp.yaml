@@ -1,0 +1,25 @@
+FormKey: 46140B:DeviousFollowers.esp
+VersionControl: 12642
+Flags: {}
+PreviousDialog: 4613FE:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 4613FF:DeviousFollowers.esp
+- 4613FC:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: It's getting late, so we're going to the head to the nearest inn.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 433A92:DeviousFollowers.esp

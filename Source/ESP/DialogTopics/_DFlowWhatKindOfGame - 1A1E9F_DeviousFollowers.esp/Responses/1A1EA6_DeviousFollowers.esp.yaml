@@ -1,0 +1,90 @@
+FormKey: 1A1EA6:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_081A1EA6
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GoldCont
+      Object: 112478:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_081A1EA6
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_081A1EA6
+      FragmentName: Fragment_3
+Flags:
+  Flags:
+  - Goodbye
+  - Random
+Topic: 000D63:DeviousFollowers.esp
+PreviousDialog: 1A1EA3:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Since you're so bad at looking after your gold, I'll do it for you!
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 100
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 00C54F:DeviousFollowers.esp
+  ComparisonValue: 00C548:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741843808
+    VariableName: ::Deals_var
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 112478:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741843776
+    VariableName: ::active_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 112478:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741843744
+    VariableName: ::Enabled_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 00C545:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741843712
+    VariableName: ::SkipToTheEnd_var

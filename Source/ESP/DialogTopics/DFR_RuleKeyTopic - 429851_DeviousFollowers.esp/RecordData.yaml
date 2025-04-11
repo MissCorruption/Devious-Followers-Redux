@@ -1,0 +1,8 @@
+FormKey: 429851:DeviousFollowers.esp
+EditorID: DFR_RuleKeyTopic
+Name:
+  TargetLanguage: English
+  Value: '[Key Holder] Can I hold onto my own keys?'
+Branch: 41F61D:DeviousFollowers.esp
+Quest: 41F61A:DeviousFollowers.esp
+SubtypeName: CUST

@@ -1,0 +1,100 @@
+FormKey: 029AFE:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_0A029AFE
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: libs
+      Object: 00F624:Devious Devices - Integration.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: I
+      Object: 02FA8B:Devious Devices - Expansion.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Lives
+      Object: 02DB9E:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: R
+      Object: 02FA8A:Devious Devices - Expansion.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_0A029AFE
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0A029AFE
+      FragmentName: Fragment_10
+Flags:
+  Flags:
+  - Goodbye
+Topic: 00A4E1:DeviousFollowers.esp
+PreviousDialog: 029AFD:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: That's fine partner darling. We make a great team, don't we?  *Kiss*
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 100
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    ItemOrList: 00000F:Skyrim.esm
+  ComparisonValue: 03C894:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 05FF81:Devious Devices - Integration.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 0429FB:Devious Devices - Integration.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 00C545:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741881088
+    VariableName: ::_DFRemovalMode_var
+  ComparisonValue: 1

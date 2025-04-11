@@ -1,0 +1,56 @@
+FormKey: 0C016D:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Goodbye
+  - Random
+PreviousDialog: 0C016B:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Stupid dog! Be quiet.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 050920:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 0110DC:DeviousFollowers.esp
+  ComparisonValue: 400
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 0110DC:DeviousFollowers.esp
+  ComparisonValue: 401
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 0110DC:DeviousFollowers.esp
+  ComparisonValue: 404
+Prompt:
+  TargetLanguage: English
+  Value: (Help me!) *Bark*

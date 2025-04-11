@@ -1,0 +1,8 @@
+FormKey: 1E9BB2:DeviousFollowers.esp
+EditorID: _DflowDealControllerBOM5
+Name:
+  TargetLanguage: English
+  Value: Mudcrab [<Global=_DflowDealMudcrabPrice> gold]
+Branch: 02243F:DeviousFollowers.esp
+Quest: 01C86D:DeviousFollowers.esp
+SubtypeName: CUST

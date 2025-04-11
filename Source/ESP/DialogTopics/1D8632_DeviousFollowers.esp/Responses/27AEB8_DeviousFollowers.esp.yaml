@@ -1,0 +1,26 @@
+FormKey: 27AEB8:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+PreviousDialog: 1D863C:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Any chance you'd like to use this worthless cocksucker in exchange for a cheese wheel?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+  ComparisonValue: 1

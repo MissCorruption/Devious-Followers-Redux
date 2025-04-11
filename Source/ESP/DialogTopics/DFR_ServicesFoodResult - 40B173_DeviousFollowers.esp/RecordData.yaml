@@ -1,0 +1,8 @@
+FormKey: 40B173:DeviousFollowers.esp
+EditorID: DFR_ServicesFoodResult
+Name:
+  TargetLanguage: English
+  Value: DFR_ServicesFoodResult
+Branch: 40B16F:DeviousFollowers.esp
+Quest: 40B16E:DeviousFollowers.esp
+SubtypeName: CUST

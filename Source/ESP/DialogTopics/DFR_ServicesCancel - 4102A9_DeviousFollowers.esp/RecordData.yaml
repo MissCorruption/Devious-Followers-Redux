@@ -1,0 +1,8 @@
+FormKey: 4102A9:DeviousFollowers.esp
+EditorID: DFR_ServicesCancel
+Name:
+  TargetLanguage: English
+  Value: Sorry, I can't get what you asked for.
+Branch: 4102A6:DeviousFollowers.esp
+Quest: 40B16E:DeviousFollowers.esp
+SubtypeName: CUST

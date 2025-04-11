@@ -1,0 +1,36 @@
+FormKey: 4102AF:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A4102AF
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A4102AF
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A4102AF
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 4102AE:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I'll get you some when I can.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 3B4FD7:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741775712
+    VariableName: ::NeedsLicenses_var
+  ComparisonValue: 1

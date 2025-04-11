@@ -1,0 +1,20 @@
+FormKey: 152AB9:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+  ResetHours: 11.999817
+PreviousDialog: 152AB8:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Unbelievable. You actually begged to be used like an animal because you couldn't play with yourself?
+  ScriptNotes: ''
+  Edits: ''

@@ -1,0 +1,59 @@
+FormKey: 0C0176:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_090C0176
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_090C0176
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_090C0176
+      FragmentName: Fragment_1
+Flags:
+  Flags:
+  - Random
+PreviousDialog: 0C2913:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Haha, what a show. Look at the mess they made on you. I love fucking slaves but I don't think even a dog would want to touch you now.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 0110DC:DeviousFollowers.esp
+  ComparisonValue: 404
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInSceneConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 050920:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 0110DC:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741896288
+    VariableName: ::CommentTimer_var
+  ComparisonValue: 000039:Skyrim.esm

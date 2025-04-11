@@ -1,0 +1,50 @@
+FormKey: 2C6ED8:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__0B2C6ED8
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__0B2C6ED8
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0B2C6ED8
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+  - WalkAway
+  - WalkAwayInvisibleInMenu
+Topic: 2AD93D:DeviousFollowers.esp
+PreviousDialog: 2C6ED7:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You will wear a straightjacket in town. It's not that I don't trust you or anything but...
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: At least you'll look sexy in it, and those sticky fingers of yours won't get us in trouble.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741797248
+    VariableName: ::DealOffering_var
+  ComparisonValue: 116

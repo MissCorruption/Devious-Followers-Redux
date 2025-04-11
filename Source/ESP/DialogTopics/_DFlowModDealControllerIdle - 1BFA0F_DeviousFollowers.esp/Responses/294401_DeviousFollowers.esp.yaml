@@ -1,0 +1,78 @@
+FormKey: 294401:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__09294401
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__09294401
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__09294401
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+PreviousDialog: 294402:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I'm disappointed that you're not wearing that beautiful amulet I gave you. It seems you only keep your word when I make you pay for breaking it.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 00081B:Adversity Framework.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 2943FF:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 05226C:Devious Devices - Integration.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741833408
+    VariableName: ::AmuletRule_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 010617:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741833376
+    VariableName: ::Suspend_var
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 2E040E:DeviousFollowers.esp
+  ComparisonValue: 000039:Skyrim.esm

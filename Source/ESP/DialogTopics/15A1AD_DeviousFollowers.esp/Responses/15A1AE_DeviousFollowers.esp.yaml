@@ -1,0 +1,19 @@
+FormKey: 15A1AE:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Wait! I don't want to be sold! Please...
+  ScriptNotes: ''
+  Edits: ''

@@ -1,0 +1,53 @@
+FormKey: 14154F:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_0814154F
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_0814154F
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0814154F
+      FragmentName: Fragment_1
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0814154F
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+Topic: 13EDA5:DeviousFollowers.esp
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "*Rolls 10 sided die* No need to be rude. Just a few days without cumming and you're so snappy."
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C868:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741856512
+    VariableName: ::Stat_var
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C868:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741856480
+    VariableName: ::Stat_var
+  ComparisonValue: 20
+Prompt:
+  TargetLanguage: English
+  Value: Fine... I'll play your stupid game!

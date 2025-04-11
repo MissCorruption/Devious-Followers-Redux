@@ -1,0 +1,38 @@
+FormKey: 3B4FED:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A3B4FED
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A3B4FED
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A3B4FED
+      FragmentName: Fragment_1
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Calm down. I'll look after your armor licenses from now on. Easy for you right?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 2FEA5F:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 2FEA65:DeviousFollowers.esp
+Prompt:
+  TargetLanguage: English
+  Value: I think I need an armor license.

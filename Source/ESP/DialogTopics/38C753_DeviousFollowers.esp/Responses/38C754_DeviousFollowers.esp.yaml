@@ -1,0 +1,18 @@
+FormKey: 38C754:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Come one, come all! This slut is open for a good long fucking. That's right, every hole.
+  ScriptNotes: ''
+  Edits: ''

@@ -1,0 +1,27 @@
+FormKey: 20EE00:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: 20EDFF:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Apparently, we both are. Oh dear!
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: IsInSceneConditionData
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: IsInSceneConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm

@@ -1,0 +1,33 @@
+FormKey: 1173BF:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 1239EC:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Not while you owe me money. Sell something or make some deals.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 00C54F:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: I want you to stop controlling my gold!

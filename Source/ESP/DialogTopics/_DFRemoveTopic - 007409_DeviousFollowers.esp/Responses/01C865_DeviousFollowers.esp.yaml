@@ -1,0 +1,102 @@
+FormKey: 01C865:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_0A01C865
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_0A01C865
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0A01C865
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+  - Random
+  ResetHours: 9.999908
+PreviousDialog: 01C864:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Naked and in bondage? Hmm... I think I'll have a little fun... Then maybe I'll help you, and maybe I won't.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 100
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 003894:Devious Devices - Assets.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 06BBE8:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 06BBD3:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 06BBD2:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 5
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 0403EA:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetRandomPercentConditionData
+  ComparisonValue: 25

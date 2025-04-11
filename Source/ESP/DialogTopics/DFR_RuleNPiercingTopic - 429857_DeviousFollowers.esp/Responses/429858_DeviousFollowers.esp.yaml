@@ -1,0 +1,35 @@
+FormKey: 429858:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A429858
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A429858
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A429858
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: NP removal response
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 354BE9:DeviousFollowers.esp
+  ComparisonValue: 000814:Adversity Framework.esm

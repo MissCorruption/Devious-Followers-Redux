@@ -1,0 +1,35 @@
+FormKey: 461405:DeviousFollowers.esp
+VersionControl: 12642
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A461405
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A461405
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A461405
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Make sure you're ready for when we get back out there.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    Keyword: 01CB87:Skyrim.esm
+  ComparisonValue: 1

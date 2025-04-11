@@ -1,0 +1,9 @@
+FormKey: 007409:DeviousFollowers.esp
+EditorID: _DFRemoveTopic
+Name:
+  TargetLanguage: English
+  Value: Can you remove one of my Devices?
+Priority: 100
+Branch: 007408:DeviousFollowers.esp
+Quest: 1C494F:DeviousFollowers.esp
+SubtypeName: CUST

@@ -1,0 +1,41 @@
+FormKey: 005E67:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: 21DBB1:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Are you so distracted that you forget the deal you made with me?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 100
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741905824
+    VariableName: ::Deals_var
+  ComparisonValue: 1

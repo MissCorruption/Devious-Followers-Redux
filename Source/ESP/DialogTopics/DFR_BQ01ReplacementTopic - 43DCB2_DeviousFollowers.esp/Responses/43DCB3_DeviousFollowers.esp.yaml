@@ -1,0 +1,48 @@
+FormKey: 43DCB3:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A43DCB3
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A43DCB3
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A43DCB3
+      FragmentName: Fragment_1
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Keep your mouth shut while I speak with your owner.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 095125:Skyrim.esm
+    Stage: 10
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    ReferenceAliasIndex: 3
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    ReferenceAliasIndex: 2
+  ComparisonValue: 1

@@ -1,0 +1,76 @@
+FormKey: 294409:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__09294409
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__09294409
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__09294409
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+  - ForceSubtitle
+Topic: 294404:DeviousFollowers.esp
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Can't you keep a simple promise? I have to make you pay for that. Sorry, it's a matter of principle.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Wear this one instead. I think it will suit you perfectly. Don't lose it this time!
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 5
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetKeywordItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 2943FF:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741817280
+    VariableName: ::AmuletRule_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 010617:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741817248
+    VariableName: ::Suspend_var

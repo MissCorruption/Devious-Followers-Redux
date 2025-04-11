@@ -1,0 +1,61 @@
+FormKey: 19093D:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_0819093D
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_0819093D
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0819093D
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Random
+  - WalkAway
+PreviousDialog: 1930E4:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 19093E:DeviousFollowers.esp
+- 186AB0:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Beg like the slave you are and I'll tie you up and you can suck me off.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    Keyword: 05226C:Devious Devices - Integration.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 186A9E:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741847424
+    VariableName: ::nState_var
+  ComparisonValue: 6
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 186A9E:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741847392
+    VariableName: ::nState_var
+WalkAwayTopic: 186AB0:DeviousFollowers.esp

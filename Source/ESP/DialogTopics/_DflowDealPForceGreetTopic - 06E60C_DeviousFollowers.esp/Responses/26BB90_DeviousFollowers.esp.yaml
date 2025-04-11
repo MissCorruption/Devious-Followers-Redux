@@ -1,0 +1,23 @@
+FormKey: 26BB90:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: 26BB8F:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I know you're having fun right now, but don't forget to keep your nipples pretty for me.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 200

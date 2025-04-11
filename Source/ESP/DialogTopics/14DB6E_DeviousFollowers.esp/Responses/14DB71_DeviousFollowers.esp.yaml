@@ -1,0 +1,41 @@
+FormKey: 14DB71:DeviousFollowers.esp
+Flags:
+  Flags:
+  - ForceSubtitle
+  ResetHours: 11.999817
+PreviousDialog: 14DB70:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: (Someone) *Whimper* (Please) *woof* (help me... please...)  *Wooof woo Woof*
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: (No... It's knotted me...) *Woof. Bark.* (Don't want to be a ... bitch) *Woof. Bark. Yelp!* (so deep...) *pant pant pant*  (Oh Gods!) *Woof woof!*
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 3
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: (Oh... it's so hot!) *Woof... woof... bark!*  (Filling me...)  *woof woof woof* *Howwwll!* (It's burning!)
+  ScriptNotes: ''
+  Edits: ''

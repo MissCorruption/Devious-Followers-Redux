@@ -1,0 +1,18 @@
+FormKey: 1B0C60:DeviousFollowers.esp
+Flags:
+  Flags:
+  - ForceSubtitle
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: It's the law that unaccompanied slaves need to be properly secured. You owe a fine for this, or I can take you in.
+  ScriptNotes: ''
+  Edits: ''

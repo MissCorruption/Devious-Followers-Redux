@@ -1,0 +1,69 @@
+FormKey: 022448:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__07022448
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__07022448
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__07022448
+      FragmentName: Fragment_4
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 022443:DeviousFollowers.esp
+- 022444:DeviousFollowers.esp
+- 022442:DeviousFollowers.esp
+- 075CE4:DeviousFollowers.esp
+- 0ECABD:DeviousFollowers.esp
+- 1DFD30:DeviousFollowers.esp
+- 1E9BAF:DeviousFollowers.esp
+- 1E9BB0:DeviousFollowers.esp
+- 1E9BB1:DeviousFollowers.esp
+- 1E9BB2:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: What deal do you want to buy out of?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 38C70D:DeviousFollowers.esp
+  ComparisonValue: 38C70C:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741884160
+    VariableName: ::Deals_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 100

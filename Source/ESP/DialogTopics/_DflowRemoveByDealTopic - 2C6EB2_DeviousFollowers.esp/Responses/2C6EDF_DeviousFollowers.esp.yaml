@@ -1,0 +1,39 @@
+FormKey: 2C6EDF:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__0B2C6EDF
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__0B2C6EDF
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0B2C6EDF
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+  - WalkAway
+  - WalkAwayInvisibleInMenu
+Topic: 2AD93D:DeviousFollowers.esp
+PreviousDialog: 2C6EDE:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I've obtained a potion that will help your tits get bigger. I want you to drink a little every day.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741795744
+    VariableName: ::DealOffering_var
+  ComparisonValue: 123

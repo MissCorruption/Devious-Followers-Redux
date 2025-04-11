@@ -1,0 +1,28 @@
+FormKey: 20EDFE:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Yes I am. I think you might need to revert to an older save.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: IsInSceneConditionData
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: IsInSceneConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+  ComparisonValue: 1

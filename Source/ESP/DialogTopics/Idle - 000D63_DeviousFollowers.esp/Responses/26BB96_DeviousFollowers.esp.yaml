@@ -1,0 +1,81 @@
+FormKey: 26BB96:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__0926BB96
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__0926BB96
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0926BB96
+      FragmentName: Fragment_1
+Flags:
+  Flags:
+  - ForceSubtitle
+PreviousDialog: 26BB95:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: If you were capable of looking after money, now would be the time to pay me.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 38C70D:DeviousFollowers.esp
+  ComparisonValue: 38C70C:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 100
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 004E3A:DeviousFollowers.esp
+  ComparisonValue: 000039:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 6
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 112478:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741907072
+    VariableName: ::Enabled_var
+  ComparisonValue: 1

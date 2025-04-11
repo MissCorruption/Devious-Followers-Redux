@@ -1,0 +1,70 @@
+FormKey: 132795:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_08132795
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_08132795
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_08132795
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 132796:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Sorry, you need to be in enough credit before I trust you to manage your own gold.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741858848
+    VariableName: ::Deals_var
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 112478:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741858816
+    VariableName: ::AskForMore_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 112478:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741858784
+    VariableName: ::CredToLeaveBool_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 00C54F:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: I want you to stop controlling my gold!

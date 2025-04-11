@@ -1,0 +1,77 @@
+FormKey: 00E04E:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_DFlow_0A00E04E
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 1B5B9E:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Fac
+      Object: 015712:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ra
+      Object: 000D62:DeviousFollowers.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HirelingRecognizeMarcurio
+      Object: 104F3B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HasHirelingGV
+      Object: 0BCC98:Skyrim.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_DFlow_0A00E04E
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_DFlow_0A00E04E
+      FragmentName: Fragment_1
+Flags: {}
+Topic: 0BCC84:Skyrim.esm
+PreviousDialog: 0BDFB1:Skyrim.esm
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: With a master of magic at your side, you'll have nothing to fear.
+  ScriptNotes: Arrogant
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 0B9980:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    ItemOrList: 00000F:Skyrim.esm
+  ComparisonValue: 0BCC96:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 0BCC9A:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 0BD738:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 0BCC98:Skyrim.esm

@@ -1,0 +1,75 @@
+FormKey: 0CC790:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - WalkAway
+PreviousDialog: 021ECF:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 021ECC:DeviousFollowers.esp
+- 01CDD9:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: So sissy, when we are around towns, I'm going to strip your clothes off, so everyone can see you naked.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 01C867:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741890656
+    VariableName: ::DealHMax_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741890624
+    VariableName: ::NakedRule_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741890592
+    VariableName: ::WhoreRule_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741890560
+    VariableName: ::JacketRule_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741890528
+    VariableName: ::PetSuitInTownRule_var
+  ComparisonValue: 2
+WalkAwayTopic: 021ECC:DeviousFollowers.esp

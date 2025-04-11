@@ -1,0 +1,32 @@
+FormKey: 3BA10A:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Goodbye
+Topic: 00A4E2:DeviousFollowers.esp
+PreviousDialog: 3BA109:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Not right now.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 02AFA1:Devious Devices - Assets.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 3BA0FF:DeviousFollowers.esp
+  ComparisonValue: 1

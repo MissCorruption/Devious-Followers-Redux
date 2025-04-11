@@ -1,0 +1,44 @@
+FormKey: 01CDD6:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - WalkAway
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 01CDDB:DeviousFollowers.esp
+- 01CDD9:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I want you to wear arm and leg cuffs. Any kind, I'm not picky.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 01C868:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741892224
+    VariableName: ::DealOMax_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741892192
+    VariableName: ::CuffsRule_var
+  ComparisonValue: 2
+WalkAwayTopic: 01CDDB:DeviousFollowers.esp

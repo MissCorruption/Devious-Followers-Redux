@@ -1,0 +1,16 @@
+FormKey: 3BF219:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I'll also be taking control of your gold. I'll give you an allowance at the start of each day and take any excess you get your hands on.
+  ScriptNotes: ''
+  Edits: ''

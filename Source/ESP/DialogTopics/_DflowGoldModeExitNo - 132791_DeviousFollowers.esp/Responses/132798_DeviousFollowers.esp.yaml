@@ -1,0 +1,19 @@
+FormKey: 132798:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Don't worry, tomorrow I'll probably be in the mood to give you your gold back.
+  ScriptNotes: ''
+  Edits: ''
+Prompt:
+  TargetLanguage: English
+  Value: I'll wait.

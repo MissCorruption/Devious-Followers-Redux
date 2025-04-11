@@ -1,0 +1,64 @@
+FormKey: 3C941A:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A3AFED1
+  - Name: DFR__TIF__0A3C941A
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A3C941A
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A3C941A
+      FragmentName: Fragment_0
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A3C941A
+      FragmentName: Fragment_1
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 3AFED1:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Naughty, naughty, you missed your deadline. Why don't we make sure you remember every time you sit down?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741783040
+    VariableName: ::SpankingRule_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741783008
+    VariableName: ::SpankDealTimer_var
+  ComparisonValue: 000039:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741782976
+    VariableName: ::SpankDealDefaults_var
+Prompt:
+  TargetLanguage: English
+  Value: I'm ready for my spanking.

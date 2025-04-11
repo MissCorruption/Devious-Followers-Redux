@@ -1,0 +1,30 @@
+FormKey: 0F1A0C:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+PreviousDialog: 119B80:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: >-
+      Funny thing, when I met her, the bitch thought she was some kind of adventurer. It looks like she knows her place now.
+
+      I could tell, right from the start, she was just a good-for-nothing cocksucking whore.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    MaleFemaleGender: Female
+  ComparisonValue: 1

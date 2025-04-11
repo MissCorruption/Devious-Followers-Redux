@@ -1,0 +1,48 @@
+FormKey: 186AB6:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_08186AB6
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_08186AB6
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_08186AB6
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: '*drinks a small vial* For the next ten minutes my pussy juices will cure your weakened state.'
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Now be good pussy licking pet. Lick me to orgasm for your meal, and imagine how you'll have to do this for the rest of you life.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    MaleFemaleGender: Female
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: Please? May I have some of your delicious pussy juices?

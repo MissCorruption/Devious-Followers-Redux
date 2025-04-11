@@ -1,0 +1,26 @@
+FormKey: 0C015E:DeviousFollowers.esp
+Flags:
+  Flags:
+  - ForceSubtitle
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You spoil my pets so much, look how excited she is. Her safe word is "kitten" if she wants to stop. Apart from that, treat her like the bitch she is.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    MaleFemaleGender: Female
+  ComparisonValue: 1

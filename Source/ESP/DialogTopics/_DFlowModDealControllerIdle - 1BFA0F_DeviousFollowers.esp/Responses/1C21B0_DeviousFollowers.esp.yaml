@@ -1,0 +1,131 @@
+FormKey: 1C21B0:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_081C21B0
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: kw
+      Object: 003894:Devious Devices - Assets.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: libs
+      Object: 00F624:Devious Devices - Integration.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_081C21B0
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_081C21B0
+      FragmentName: Fragment_8
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+Topic: 021ED4:DeviousFollowers.esp
+PreviousDialog: 38C73E:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You know you're not allowed any clothes... Off they come! *Tears them off*
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741835808
+    VariableName: ::NakedRule_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 38C70D:DeviousFollowers.esp
+  ComparisonValue: 38C70C:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 0A8657:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 041422:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 05F4BA:Devious Devices - Integration.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 010617:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741835776
+    VariableName: ::Suspend_var
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 00081B:Adversity Framework.esm
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 2E040E:DeviousFollowers.esp
+  ComparisonValue: 000039:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 0130DC:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 013166:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 013168:Skyrim.esm
+  ComparisonValue: 1

@@ -1,0 +1,53 @@
+FormKey: 02092B:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - WalkAway
+PreviousDialog: 0203C6:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 0203C7:DeviousFollowers.esp
+- 01CDD9:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: As well as wearing the corset or harness, how about you sell me your hands and feet? You'll make sure they stay locked away for me, won't you?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 01C866:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741891488
+    VariableName: ::DealBMax_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741891456
+    VariableName: ::BootsRule_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741891424
+    VariableName: ::GlovesRule_var
+  ComparisonValue: 2
+WalkAwayTopic: 0203C7:DeviousFollowers.esp

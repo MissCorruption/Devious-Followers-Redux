@@ -1,0 +1,9 @@
+FormKey: 0392B2:DeviousFollowers.esp
+EditorID: _DflowGambleTopicTopic
+Name:
+  TargetLanguage: English
+  Value: Could I borrow some gold?
+Priority: 1
+Branch: 0392B1:DeviousFollowers.esp
+Quest: 0392AF:DeviousFollowers.esp
+SubtypeName: CUST

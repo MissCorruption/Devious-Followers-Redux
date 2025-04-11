@@ -1,0 +1,42 @@
+FormKey: 13EDAD:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - WalkAway
+PreviousDialog: 13EDAC:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 14154E:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: No? Wait? What do you want?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C868:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741857056
+    VariableName: ::Stat_var
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C868:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741857024
+    VariableName: ::Stat_var
+  ComparisonValue: 20
+Prompt:
+  TargetLanguage: English
+  Value: '... No ... Wait ... I ...'
+WalkAwayTopic: 14154E:DeviousFollowers.esp

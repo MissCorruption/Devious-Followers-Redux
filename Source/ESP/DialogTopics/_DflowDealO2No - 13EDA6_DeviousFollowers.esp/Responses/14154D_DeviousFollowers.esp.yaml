@@ -1,0 +1,33 @@
+FormKey: 14154D:DeviousFollowers.esp
+Flags:
+  Flags:
+  - WalkAway
+PreviousDialog: 13EDAD:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 14154E:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You can't what? Do you want to play or not?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C868:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741856928
+    VariableName: ::Stat_var
+  ComparisonValue: 20
+Prompt:
+  TargetLanguage: English
+  Value: "... Please ... I can't ... But ..."
+WalkAwayTopic: 14154E:DeviousFollowers.esp

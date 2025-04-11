@@ -1,0 +1,16 @@
+FormKey: 38C74E:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Now I don't care how you get me my money, just that you do. You're free to go where you want unless I tell you otherwise.
+  ScriptNotes: ''
+  Edits: ''

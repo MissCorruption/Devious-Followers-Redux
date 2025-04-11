@@ -1,0 +1,26 @@
+FormKey: 15A1A8:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+PreviousDialog: 15A1A7:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You can buy him from me if you want. He's basically my slave with all the deals he made.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+  ComparisonValue: 1

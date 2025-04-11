@@ -1,0 +1,70 @@
+FormKey: 19093B:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_0819093B
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_0819093B
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0819093B
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Random
+  - WalkAway
+PreviousDialog: 1930E2:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 19093E:DeviousFollowers.esp
+- 186AB0:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You can pay me five thousand gold to drink my pussy juices and beg for it like  good little pet.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    ItemOrList: 00000F:Skyrim.esm
+  ComparisonValue: 5000
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 112478:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741848064
+    VariableName: ::Enabled_var
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 186A9E:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741848032
+    VariableName: ::nState_var
+  ComparisonValue: 4
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 186A9E:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741848000
+    VariableName: ::nState_var
+WalkAwayTopic: 186AB0:DeviousFollowers.esp

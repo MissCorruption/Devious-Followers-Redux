@@ -1,0 +1,18 @@
+FormKey: 4102B7:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 41A4E7:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I don't think so. I'm sick and tired of lugging your stuff around.
+  ScriptNotes: ''
+  Edits: ''

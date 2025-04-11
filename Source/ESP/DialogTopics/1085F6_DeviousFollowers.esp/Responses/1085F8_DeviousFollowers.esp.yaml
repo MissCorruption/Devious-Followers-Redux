@@ -1,0 +1,19 @@
+FormKey: 1085F8:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+PreviousDialog: 119B71:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: '*Pockets money* See, all that adventuring made you a whore? Your slave holes are literally more valuable than your skills. But I suppose you deserve a cut.'
+  ScriptNotes: ''
+  Edits: ''

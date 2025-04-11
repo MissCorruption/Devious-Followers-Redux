@@ -1,0 +1,24 @@
+FormKey: 41029B:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: 410299:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: That doesn't seem to be the one I gave you.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 40B16E:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741776800
+    VariableName: ::Received_var
+  ComparisonValue: -1

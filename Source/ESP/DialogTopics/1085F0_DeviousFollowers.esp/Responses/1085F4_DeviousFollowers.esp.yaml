@@ -1,0 +1,19 @@
+FormKey: 1085F4:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+PreviousDialog: 1085F3:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: '*Hands over 400g* Nice fuck slut you have there! Keep the change.'
+  ScriptNotes: ''
+  Edits: ''

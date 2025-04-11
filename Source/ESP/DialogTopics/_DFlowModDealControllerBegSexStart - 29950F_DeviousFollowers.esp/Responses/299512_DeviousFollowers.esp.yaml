@@ -1,0 +1,101 @@
+FormKey: 299512:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__09299512
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__09299512
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__09299512
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 2CBFFF:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Yes, that's what you're for slave.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 38C70D:DeviousFollowers.esp
+  ComparisonValue: 38C70C:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 3
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    Keyword: 0130DB:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741815520
+    VariableName: ::SexRule_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741815488
+    VariableName: ::SexDealTimer_var
+  ComparisonValue: 000039:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741815456
+    VariableName: ::SexDealDefaults_var
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    Keyword: 003330:Devious Devices - Assets.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    Keyword: 007EB8:Devious Devices - Assets.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    Keyword: 00FAC9:Devious Devices - Assets.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    Keyword: 00FACA:Devious Devices - Assets.esm
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: Master, would it please you to make use of me?

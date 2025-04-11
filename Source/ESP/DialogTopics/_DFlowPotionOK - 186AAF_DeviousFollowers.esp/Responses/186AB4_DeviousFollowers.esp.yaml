@@ -1,0 +1,26 @@
+FormKey: 186AB4:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: 186AB3:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 186AB5:DeviousFollowers.esp
+- 190938:DeviousFollowers.esp
+- 186AB0:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: The effect is permanent. Only my pussy juice is will pause it for a while. But you'll have to beg for it or I won't feed you.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    MaleFemaleGender: Female
+  ComparisonValue: 1

@@ -1,0 +1,39 @@
+FormKey: 2C6EF2:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 2C1DA7:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I'm looking forward to seeing you milked sometime today.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741804352
+    VariableName: ::MilkingRule_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741804320
+    VariableName: ::MilkDealRequests_var
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741804288
+    VariableName: ::TimerStatus_var
+  ComparisonValue: 1

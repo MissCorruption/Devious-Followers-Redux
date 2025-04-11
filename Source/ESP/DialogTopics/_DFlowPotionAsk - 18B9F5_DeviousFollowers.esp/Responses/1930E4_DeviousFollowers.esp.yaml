@@ -1,0 +1,62 @@
+FormKey: 1930E4:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_081930E4
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_081930E4
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_081930E4
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Random
+  - WalkAway
+PreviousDialog: 1930E3:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 19093E:DeviousFollowers.esp
+- 186AB0:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: If you beg nicely enough for it, I'll tie you up and you can lick my pussy.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    Keyword: 05226C:Devious Devices - Integration.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 186A9E:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741847616
+    VariableName: ::nState_var
+  ComparisonValue: 6
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 186A9E:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741847584
+    VariableName: ::nState_var
+WalkAwayTopic: 186AB0:DeviousFollowers.esp

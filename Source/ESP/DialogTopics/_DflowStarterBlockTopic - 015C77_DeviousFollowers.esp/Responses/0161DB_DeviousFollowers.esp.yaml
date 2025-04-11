@@ -1,0 +1,104 @@
+FormKey: 0161DB:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_0A0161DB
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Fac
+      Object: 015712:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HirelingRecognizeVorstag
+      Object: 104F3D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Follower
+      Object: 0750BA:Skyrim.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Hireling
+      Object: 0BCC94:Skyrim.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HasHirelingGV
+      Object: 0BCC98:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ra
+      Object: 000D62:DeviousFollowers.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentHireling
+      Object: 0BD738:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FollowQuest
+      Object: 0750BA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_0A0161DB
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0A0161DB
+      FragmentName: Fragment_2
+Flags:
+  Flags:
+  - WalkAway
+Topic: 00E056:DeviousFollowers.esp
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You're that slave that escaped her master. Don't worry, I'll collect the debt for them.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 100
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 200
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInDialogueWithPlayerConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    RunOnType: Target
+    Object: 000007:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 0BCC9A:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 225284:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 8

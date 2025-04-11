@@ -1,0 +1,58 @@
+FormKey: 2BCC9D:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__0B2BCC9D
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__0B2BCC9D
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0B2BCC9D
+      FragmentName: Fragment_0
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0B2BCC9D
+      FragmentName: Fragment_1
+Flags:
+  Flags:
+  - Goodbye
+  - CanMoveWhileGreeting
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You agreed to give me your keys. I hope you're being honest with me, but as you can't be trusted I'm going to have to search you.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: '[Searches you for keys]'
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 2C6EAD:DeviousFollowers.esp
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: Hello?

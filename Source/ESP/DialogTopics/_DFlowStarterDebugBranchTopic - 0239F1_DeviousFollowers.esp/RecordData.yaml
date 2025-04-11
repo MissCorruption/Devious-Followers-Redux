@@ -1,0 +1,9 @@
+FormKey: 0239F1:DeviousFollowers.esp
+EditorID: _DFlowStarterDebugBranchTopic
+Name:
+  TargetLanguage: English
+  Value: '[Debug: become my Devious Follower and reset debt]'
+Priority: 0
+Branch: 0239F0:DeviousFollowers.esp
+Quest: 0239EE:DeviousFollowers.esp
+SubtypeName: CUST

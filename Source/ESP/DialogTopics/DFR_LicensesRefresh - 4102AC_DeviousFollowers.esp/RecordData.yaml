@@ -1,0 +1,8 @@
+FormKey: 4102AC:DeviousFollowers.esp
+EditorID: DFR_LicensesRefresh
+Name:
+  TargetLanguage: English
+  Value: I need some licenses.
+Branch: 3B4FD8:DeviousFollowers.esp
+Quest: 3B4FD7:DeviousFollowers.esp
+SubtypeName: CUST

@@ -1,0 +1,8 @@
+FormKey: 18B9F5:DeviousFollowers.esp
+EditorID: _DFlowPotionAsk
+Name:
+  TargetLanguage: English
+  Value: What do you want for my meal?
+Branch: 189253:DeviousFollowers.esp
+Quest: 186A9E:DeviousFollowers.esp
+SubtypeName: CUST

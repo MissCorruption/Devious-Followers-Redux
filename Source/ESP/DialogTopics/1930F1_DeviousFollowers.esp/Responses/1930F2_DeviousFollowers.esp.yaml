@@ -1,0 +1,26 @@
+FormKey: 1930F2:DeviousFollowers.esp
+Flags:
+  Flags:
+  - ForceSubtitle
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Yes, she is basically my slave. She owes me a lot of money and has had to make some kinky deals just to get by.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    MaleFemaleGender: Female
+  ComparisonValue: 1

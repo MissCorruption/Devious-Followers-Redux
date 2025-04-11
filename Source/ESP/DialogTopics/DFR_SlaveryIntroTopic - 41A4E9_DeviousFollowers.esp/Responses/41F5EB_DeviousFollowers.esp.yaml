@@ -1,0 +1,55 @@
+FormKey: 41F5EB:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A41F5EB
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A41F5EB
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A41F5EB
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 41A4E9:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: For as long as it takes to pay you debt to me, you're my property to do with as I see fit.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: And don't worry, I haven't forgotten about the deals you already made. You'll continue following those rules until I decide to let them go.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 38C70D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741772032
+    VariableName: ::SlaveryMethod_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 42986F:DeviousFollowers.esp
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: Slave? What are you talking about?!

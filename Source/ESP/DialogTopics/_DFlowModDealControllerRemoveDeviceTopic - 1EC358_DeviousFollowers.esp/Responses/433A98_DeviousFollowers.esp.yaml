@@ -1,0 +1,67 @@
+FormKey: 433A98:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A433A98
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: R
+      Object: 1930DE:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: kw
+      Object: 003894:Devious Devices - Assets.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: I
+      Object: 1930DD:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: libs
+      Object: 00F624:Devious Devices - Integration.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A433A98
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A433A98
+      FragmentName: Fragment_8
+Flags:
+  Flags:
+  - Goodbye
+  - ForceSubtitle
+PreviousDialog: 204F8E:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Sure but if you're lying I'll slap them right back on.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741823232
+    VariableName: ::BoundInTownRule_var
+  ComparisonValue: 3
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: I'm ready to leave town can you take the Jacket off?

@@ -1,0 +1,71 @@
+FormKey: 3272C9:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__093272C9
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlow
+      Object: 000D62:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__093272C9
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__093272C9
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: 3272C6:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Are you alright my pet? You look dizzy. Let me help you...
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 3272C5:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 15A1A4:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741851776
+    VariableName: ::Enable_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 15A1A4:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741851744
+    VariableName: ::active_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 010617:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741851712
+    VariableName: ::Suspend_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 15A1A4:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741851680
+    VariableName: ::Timer_var
+  ComparisonValue: 000039:Skyrim.esm

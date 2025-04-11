@@ -1,0 +1,92 @@
+FormKey: 23914B:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__0D23914B
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DC
+      Object: 01C86D:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF__0D23914B
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__0D23914B
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: 00AA48:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 239150:DeviousFollowers.esp
+- 2C6EB2:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Of course. I'll remove it... If you agree to a new deal of my choosing.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 100
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 05226C:Devious Devices - Integration.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 0429FB:Devious Devices - Integration.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    Keyword: 0130DC:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 23914C:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 00C545:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741901664
+    VariableName: ::_DFRemovalMode_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 01C867:DeviousFollowers.esp
+  ComparisonValue: 55
+Prompt:
+  TargetLanguage: English
+  Value: Please... Can you remove this heavy bondage?

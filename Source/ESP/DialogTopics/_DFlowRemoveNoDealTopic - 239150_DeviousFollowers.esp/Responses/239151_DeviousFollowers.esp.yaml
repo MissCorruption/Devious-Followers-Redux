@@ -1,0 +1,30 @@
+FormKey: 239151:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__0A239151
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowLives
+      Object: 02DB9E:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__0A239151
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0A239151
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Don't waste my time. You won't get another offer like that in a while.
+  ScriptNotes: ''
+  Edits: ''

@@ -1,0 +1,21 @@
+FormKey: 1F61EE:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Go away and find your master, slave.
+  ScriptNotes: ''
+  Edits: ''
+Prompt:
+  TargetLanguage: English
+  Value: Please don't get involved in this.

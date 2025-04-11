@@ -1,0 +1,62 @@
+FormKey: 3B4FDB:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A3B4FDB
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A3B4FDB
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A3B4FDB
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - WalkAway
+PreviousDialog: 429872:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 3B4FDE:DeviousFollowers.esp
+- 3B4FDF:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I know all the quartermasters. Do you want me to take care of it from now on?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 3B4FD7:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741782368
+    VariableName: ::Enabled_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 3B4FD7:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741782336
+    VariableName: ::HandlingLicenses_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 38C70D:DeviousFollowers.esp
+  ComparisonValue: 38C70C:DeviousFollowers.esp
+Prompt:
+  TargetLanguage: English
+  Value: I'm worried about licenses. Can you help?
+WalkAwayTopic: 3B4FDF:DeviousFollowers.esp

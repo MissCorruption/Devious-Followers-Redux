@@ -1,0 +1,62 @@
+FormKey: 2F4833:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__092F4833
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__092F4833
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__092F4833
+      FragmentName: Fragment_2
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__092F4833
+      FragmentName: Fragment_1
+Flags: {}
+PreviousDialog: 23914A:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I'm glad it made an impression on you. Keep in mind that there are much less pleasant situations you could find yourself in.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 3
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Maybe now you'll properly appreciate how kind and fair I am? When all you do is get into trouble and run up debts.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 4
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I think I need to put you in that device more often. You'll definitely be wearing it again.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 7
+Prompt:
+  TargetLanguage: English
+  Value: That was terrible... please never do that again... please...

@@ -1,0 +1,61 @@
+FormKey: 15A1A3:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_0815A1A3
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Fac
+      Object: 015712:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DebugV
+      Object: 0239ED:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ra
+      Object: 000D62:DeviousFollowers.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HirelingRecognizeStenvar
+      Object: 104F3C:Skyrim.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_0815A1A3
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0815A1A3
+      FragmentName: Fragment_0
+Flags: {}
+Topic: 0239F1:DeviousFollowers.esp
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I think we're going to make a great team. Just make sure I get my share of the gold, ok?
+  ScriptNotes: Excited.
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetFactionRankConditionData
+    Faction: 05C84D:Skyrim.esm
+  ComparisonValue: -2
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetFactionRankConditionData
+    Faction: 0BCC9A:Skyrim.esm
+  ComparisonValue: -2

@@ -1,0 +1,18 @@
+FormKey: 0C0160:DeviousFollowers.esp
+Flags:
+  Flags:
+  - ForceSubtitle
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: (Kitten) *Woof* (KITTEN) *WOOOF* (KITTEN!)  *WOOOOOF!*  (Kitt... please... this cursed device...) *Woo... whimper... whine.*
+  ScriptNotes: ''
+  Edits: ''

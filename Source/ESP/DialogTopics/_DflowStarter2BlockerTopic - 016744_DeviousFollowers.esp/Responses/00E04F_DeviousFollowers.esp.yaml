@@ -1,0 +1,68 @@
+FormKey: 00E04F:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_0A00E04F
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Fac
+      Object: 015712:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DMaster
+      Object: 000D62:DeviousFollowers.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HirelingRecognizeVorstag
+      Object: 104F3D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentHireling
+      Object: 0BD738:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Hireling
+      Object: 0BCC94:Skyrim.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HasHirelingGV
+      Object: 0BCC98:Skyrim.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_0A00E04F
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0A00E04F
+      FragmentName: Fragment_2
+Flags: {}
+Topic: 0BCC84:Skyrim.esm
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Your loyal retainers have decided that I'll take control of money owed. You'll pay me, and I'll make sure they get their share.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInDialogueWithPlayerConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 225284:DeviousFollowers.esp
+  ComparisonValue: 1

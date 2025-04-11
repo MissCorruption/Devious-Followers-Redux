@@ -1,0 +1,18 @@
+FormKey: 14DB5F:DeviousFollowers.esp
+Flags:
+  Flags:
+  - ForceSubtitle
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Not today. But she loves being a four-legged barking bitch, and I know how you love my pets... So would you like to use her?
+  ScriptNotes: ''
+  Edits: ''

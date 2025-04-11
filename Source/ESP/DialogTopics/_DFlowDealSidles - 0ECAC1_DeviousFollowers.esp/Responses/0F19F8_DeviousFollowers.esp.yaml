@@ -1,0 +1,187 @@
+FormKey: 0F19F8:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_080F19F8
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Client
+      Object: 0E53C8:DeviousFollowers.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_080F19F8
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_080F19F8
+      FragmentName: Fragment_1
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_080F19F8
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+PreviousDialog: 0ECAC3:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I'll take that offer! I was going buy an ale, but a whore for 50g? A bargain!
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+  ComparisonValue: 2EF723:DeviousFollowers.esp
+- MutagenObjectType: ConditionGlobal
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    MaleFemaleGender: Female
+  ComparisonValue: 2EF725:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 00081B:Adversity Framework.esm
+- MutagenObjectType: ConditionGlobal
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 354BEC:DeviousFollowers.esp
+  ComparisonValue: 000814:Adversity Framework.esm
+- MutagenObjectType: ConditionGlobal
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 36E103:DeviousFollowers.esp
+  ComparisonValue: 000814:Adversity Framework.esm
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 0E53C8:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741866752
+    VariableName: ::Delay_var
+  ComparisonValue: 000039:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: IsTalkingConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: IsTalkingConditionData
+    RunOnType: QuestAlias
+    RunOnTypeIndex: 1
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 0E53C8:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741866720
+    VariableName: ::Stat_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    Keyword: 0ECABC:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 433AAA:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 010617:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741866688
+    VariableName: ::Suspend_var
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 98
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 01CB87:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 013166:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 013168:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 05C84E:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 433AAA:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Faction: 00E50F:SexLab.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetDetectedConditionData
+    TargetNpc: 000014:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetLineOfSightConditionData
+    Target: 000014:Skyrim.esm
+  ComparisonValue: 1

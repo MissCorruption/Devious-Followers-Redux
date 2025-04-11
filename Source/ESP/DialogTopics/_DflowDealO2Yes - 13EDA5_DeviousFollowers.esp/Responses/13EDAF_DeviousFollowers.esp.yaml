@@ -1,0 +1,52 @@
+FormKey: 13EDAF:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_0813EDAF
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_0813EDAF
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0813EDAF
+      FragmentName: Fragment_1
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0813EDAF
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 13EDAE:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "*Rolls 8 sided die* I know it's hard, but maybe you'll get lucky? Let's see!"
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C868:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741857728
+    VariableName: ::Stat_var
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C868:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741857696
+    VariableName: ::Stat_var
+  ComparisonValue: 20
+Prompt:
+  TargetLanguage: English
+  Value: I shouldn't bu... Alright. Yes!

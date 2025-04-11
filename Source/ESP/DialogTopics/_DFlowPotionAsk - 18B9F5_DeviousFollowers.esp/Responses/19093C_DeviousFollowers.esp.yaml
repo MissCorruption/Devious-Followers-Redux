@@ -1,0 +1,51 @@
+FormKey: 19093C:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_0819093C
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_0819093C
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0819093C
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Random
+  - WalkAway
+PreviousDialog: 19093D:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 19093E:DeviousFollowers.esp
+- 186AB0:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I'm feeling generous. Just be a good little pet and beg nicely.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 186A9E:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741847232
+    VariableName: ::nState_var
+  ComparisonValue: 5
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 186A9E:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741847200
+    VariableName: ::nState_var
+WalkAwayTopic: 186AB0:DeviousFollowers.esp

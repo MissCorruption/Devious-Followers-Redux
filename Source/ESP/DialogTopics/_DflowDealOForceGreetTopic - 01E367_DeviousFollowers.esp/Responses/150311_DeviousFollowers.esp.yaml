@@ -1,0 +1,49 @@
+FormKey: 150311:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_08150311
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_08150311
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_08150311
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Random
+  - WalkAway
+Topic: 13EDA3:DeviousFollowers.esp
+PreviousDialog: 26BB8D:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 13EDA5:DeviousFollowers.esp
+- 13EDA6:DeviousFollowers.esp
+- 13EDA7:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Game time. Do you want a chance at getting release?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 98
+Prompt:
+  TargetLanguage: English
+  Value: Ah my pet, we need to talk...
+WalkAwayTopic: 13EDA5:DeviousFollowers.esp

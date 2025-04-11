@@ -1,0 +1,9 @@
+FormKey: 0559F3:DeviousFollowers.esp
+EditorID: _DFlowItemsBuyBackTopic
+Name:
+  TargetLanguage: English
+  Value: Can I get my things back? [200 Gold]
+Priority: 100
+Branch: 0559F2:DeviousFollowers.esp
+Quest: 0559F0:DeviousFollowers.esp
+SubtypeName: CUST

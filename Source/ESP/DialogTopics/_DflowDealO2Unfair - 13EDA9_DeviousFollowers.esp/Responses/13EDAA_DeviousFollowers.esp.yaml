@@ -1,0 +1,25 @@
+FormKey: 13EDAA:DeviousFollowers.esp
+Flags:
+  Flags:
+  - WalkAway
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 13EDA5:DeviousFollowers.esp
+- 13EDA6:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You don't have to orgasm slut, so you don't have to play the game. I'm being nice by giving you any chance of relief at all.
+  ScriptNotes: ''
+  Edits: ''
+Prompt:
+  TargetLanguage: English
+  Value: '... at least give me a chance!'
+WalkAwayTopic: 13EDA5:DeviousFollowers.esp

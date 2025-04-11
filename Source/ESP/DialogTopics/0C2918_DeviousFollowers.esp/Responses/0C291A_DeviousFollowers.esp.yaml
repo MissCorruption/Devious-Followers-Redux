@@ -1,0 +1,19 @@
+FormKey: 0C291A:DeviousFollowers.esp
+Flags:
+  Flags:
+  - ForceSubtitle
+  ResetHours: 11.999817
+PreviousDialog: 0C2919:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: (No) *Woof* (Kitten) *BARK* (Kitt- No!) *WOOF*
+  ScriptNotes: ''
+  Edits: ''

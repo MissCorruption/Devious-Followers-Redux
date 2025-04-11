@@ -1,0 +1,45 @@
+FormKey: 2C6EC2:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__0B2C6EC2
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__0B2C6EC2
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0B2C6EC2
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+  - WalkAway
+  - WalkAwayInvisibleInMenu
+Topic: 2AD93D:DeviousFollowers.esp
+PreviousDialog: 2C6EC1:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: That collar says you're owned, but I want to own your dick too. You'll wear a special chastity belt, and once a day you'll get a chance to cum.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741801152
+    VariableName: ::DealOffering_var
+  ComparisonValue: 24

@@ -1,0 +1,60 @@
+FormKey: 0CC78B:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_080CC78B
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TEMP
+      Object: 014172:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCM
+      Object: 00C545:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_080CC78B
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_080CC78B
+      FragmentName: Fragment_2
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_080CC78B
+      FragmentName: Fragment_1
+Flags:
+  Flags:
+  - Goodbye
+  - Random
+PreviousDialog: 0187AB:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Roll up, roll up! Who wants to fuck this failed adventurer, whose only assets are two wet holes?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 018797:DeviousFollowers.esp
+  ComparisonValue: 101
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 014172:DeviousFollowers.esp

@@ -1,0 +1,27 @@
+FormKey: 2AD955:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: If you can't even remember your deals, maybe I should make some up? Haha... Don't worry, I'd never cheat you like that.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: ' I hear that you have to look in the MCM to see what your deals are these days... but I have no idea what that is. Magic probably.'
+  ScriptNotes: ''
+  Edits: ''

@@ -1,0 +1,9 @@
+FormKey: 4613FC:DeviousFollowers.esp
+VersionControl: 12642
+EditorID: DFR_ReturnToTownStay
+Name:
+  TargetLanguage: English
+  Value: May I have some time to look around here?
+Branch: 4613F9:DeviousFollowers.esp
+Quest: 433A92:DeviousFollowers.esp
+SubtypeName: CUST

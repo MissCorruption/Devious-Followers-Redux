@@ -1,0 +1,56 @@
+FormKey: 2AD93A:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__0A2AD93A
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__0A2AD93A
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0A2AD93A
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - WalkAway
+Topic: 01C86F:DeviousFollowers.esp
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 2AD93D:DeviousFollowers.esp
+- 2AD93F:DeviousFollowers.esp
+- 2AD93E:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Hmm... Since you're a pretty little thing, I'm sure we can make a deal!
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 38C70D:DeviousFollowers.esp
+  ComparisonValue: 38C70C:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741812032
+    VariableName: ::Deals_var
+  ComparisonValue: 1
+WalkAwayTopic: 2AD93F:DeviousFollowers.esp

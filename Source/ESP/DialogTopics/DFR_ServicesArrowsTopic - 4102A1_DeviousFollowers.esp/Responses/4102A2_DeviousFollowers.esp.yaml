@@ -1,0 +1,39 @@
+FormKey: 4102A2:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A4102A2
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A4102A2
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A4102A2
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - InvisibleContinue
+  - WalkAway
+  - WalkAwayInvisibleInMenu
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 4102A3:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Let's see here...
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 41029F:DeviousFollowers.esp
+  ComparisonValue: 000814:Adversity Framework.esm
+WalkAwayTopic: 4102A3:DeviousFollowers.esp

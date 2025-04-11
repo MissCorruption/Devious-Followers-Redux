@@ -1,0 +1,8 @@
+FormKey: 01C2FC:DeviousFollowers.esp
+EditorID: _DFlowBoots
+Name:
+  TargetLanguage: English
+  Value: Can you take these boots off for me? [<Global=_DFlowRemovalP>]
+Branch: 007408:DeviousFollowers.esp
+Quest: 1C494F:DeviousFollowers.esp
+SubtypeName: CUST

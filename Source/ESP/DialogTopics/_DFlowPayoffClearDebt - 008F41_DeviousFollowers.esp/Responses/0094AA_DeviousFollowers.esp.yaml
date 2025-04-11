@@ -1,0 +1,133 @@
+FormKey: 0094AA:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_DFlow_0B0094AA
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Fac
+      Object: 015712:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowDebt
+      Object: 00C54F:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: libs
+      Object: 00F624:Devious Devices - Integration.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_DFlow_0B0094AA
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_DFlow_0B0094AA
+      FragmentName: Fragment_3
+Flags: {}
+Topic: 0089D8:DeviousFollowers.esp
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You shouldn't see this stale dialog entry.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 100
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    ItemOrList: 00000F:Skyrim.esm
+  ComparisonValue: 00C54F:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Global: 218C7C:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741902560
+    VariableName: ::Deals_var
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Global: 2FEA40:DeviousFollowers.esp
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    Keyword: 013168:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInCurrentLocFormListConditionData
+    FormList: 2FEA41:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Global: 2FEA40:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 99
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 99

@@ -1,0 +1,56 @@
+FormKey: 041420:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_07041420
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: libs
+      Object: 00F624:Devious Devices - Integration.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: I
+      Object: 041EE9:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: R
+      Object: 041EEA:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_07041420
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_07041420
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I know how you hate wearing clothes... But I have something that's close to being naked and will keep you warm too!
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 041422:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 040EBB:DeviousFollowers.esp
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: I'm cold.  I'm going to freeze to death like this.

@@ -1,0 +1,24 @@
+FormKey: 442DC1:DeviousFollowers.esp
+Flags:
+  Flags:
+  - WalkAway
+  - WalkAwayInvisibleInMenu
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 442DC3:DeviousFollowers.esp
+- 442DBF:DeviousFollowers.esp
+- 442DC5:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Where do you think you're going? We've got a bounty to do here.
+  ScriptNotes: ''
+  Edits: ''
+WalkAwayTopic: 442DC5:DeviousFollowers.esp

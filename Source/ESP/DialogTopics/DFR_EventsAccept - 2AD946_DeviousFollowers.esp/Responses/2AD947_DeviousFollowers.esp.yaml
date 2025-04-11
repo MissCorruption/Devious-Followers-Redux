@@ -1,0 +1,81 @@
+FormKey: 2AD947:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR_TIF__0A2AD947
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR_TIF__0A2AD947
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR_TIF__0A2AD947
+      FragmentName: Fragment_2
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 42982A:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Accept Response 1
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Accept Response 2
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 3
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Accept Response 3
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 4
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Accept Response 4
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 5
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Accept Response 5
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 38C75F:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741809184
+    VariableName: ::Loop_var
+  ComparisonValue: 1

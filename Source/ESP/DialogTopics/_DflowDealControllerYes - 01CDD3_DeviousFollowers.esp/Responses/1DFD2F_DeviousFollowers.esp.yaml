@@ -1,0 +1,37 @@
+FormKey: 1DFD2F:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - WalkAway
+PreviousDialog: 075CE7:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 1DFD2D:DeviousFollowers.esp
+- 01CDD9:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I will add a random rule to the Bear Deal.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 1DD588:DeviousFollowers.esp
+  ComparisonValue: 3
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1DD588:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741889472
+    VariableName: ::Enabled_var
+  ComparisonValue: 1
+WalkAwayTopic: 1DFD2D:DeviousFollowers.esp

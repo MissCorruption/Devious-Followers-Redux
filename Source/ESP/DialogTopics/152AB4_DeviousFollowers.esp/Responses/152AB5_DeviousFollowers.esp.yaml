@@ -1,0 +1,20 @@
+FormKey: 152AB5:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+  ResetHours: 11.999817
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Amazing, I've never heard a slut moan so loud being fucked by a dog.
+  ScriptNotes: ''
+  Edits: ''

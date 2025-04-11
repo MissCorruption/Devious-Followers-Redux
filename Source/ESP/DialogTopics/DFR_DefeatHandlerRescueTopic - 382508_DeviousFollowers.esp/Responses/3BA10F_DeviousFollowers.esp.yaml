@@ -1,0 +1,41 @@
+FormKey: 3BA10F:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A3BA10F
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A3BA10F
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A3BA10F
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Random
+PreviousDialog: 3BA10E:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "That was sad, honestly. Next time you decide to keel over, give me a heads up so I don't have to join you. "
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 382506:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741786848
+    VariableName: ::BothDowned_var
+  ComparisonValue: 1

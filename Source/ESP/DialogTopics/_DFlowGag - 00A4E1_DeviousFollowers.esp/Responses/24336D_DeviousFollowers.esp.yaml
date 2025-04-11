@@ -1,0 +1,122 @@
+FormKey: 24336D:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__0D24336D
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: R
+      Object: 02FA8A:Devious Devices - Expansion.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DC
+      Object: 01C86D:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: I
+      Object: 02FA8B:Devious Devices - Expansion.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Lives
+      Object: 02DB9E:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: libs
+      Object: 00F624:Devious Devices - Integration.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__0D24336D
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0D24336D
+      FragmentName: Fragment_18
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0D24336D
+      FragmentName: Fragment_15
+Flags: {}
+Topic: 01C2FC:DeviousFollowers.esp
+PreviousDialog: 00AA4C:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 239150:DeviousFollowers.esp
+- 2C6EB2:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: The gag? I'll remove it... If you agree to a new deal of my choosing.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 100
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 007EB8:Devious Devices - Assets.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 0429FB:Devious Devices - Integration.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    Keyword: 0130DC:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 23914C:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 00C545:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741900960
+    VariableName: ::_DFRemovalMode_var
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 01C866:DeviousFollowers.esp
+  ComparisonValue: 3
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 1BD274:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741900928
+    VariableName: ::GagRule_var
+  ComparisonValue: 2
+Prompt:
+  TargetLanguage: English
+  Value: Pwmff... Wun wuh wuffhuw wiff whrrg? [Remove gag]

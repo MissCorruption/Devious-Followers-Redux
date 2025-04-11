@@ -1,0 +1,59 @@
+FormKey: 0C2914:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_090C2914
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_090C2914
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_090C2914
+      FragmentName: Fragment_1
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_090C2914
+      FragmentName: Fragment_2
+Flags:
+  ResetHours: 11.999817
+PreviousDialog: 0C0175:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: What an appetite for cock! She's still wet after all that. I have twenty guards... but they have a job to do, can't have them waste all day fucking.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 0110DC:DeviousFollowers.esp
+  ComparisonValue: 403
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsScenePlayingConditionData
+    Scene: 0C2917:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 050920:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 2F4838:DeviousFollowers.esp
+  ComparisonValue: 000039:Skyrim.esm

@@ -1,0 +1,8 @@
+FormKey: 429847:DeviousFollowers.esp
+EditorID: DFR_RuleCrawlInTownTopic
+Name:
+  TargetLanguage: English
+  Value: '[Crawling] May I please walk in town again?'
+Branch: 41F61D:DeviousFollowers.esp
+Quest: 41F61A:DeviousFollowers.esp
+SubtypeName: CUST

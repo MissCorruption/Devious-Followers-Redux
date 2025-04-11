@@ -1,0 +1,39 @@
+FormKey: 0B3B3E:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_090B3B3E
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: max
+      Object: 03C893:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Rules
+      Object: 0B13A3:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_090B3B3E
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_090B3B3E
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 0AEC02:DeviousFollowers.esp
+- 0AEC03:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: So the game works like this...
+  ScriptNotes: ''
+  Edits: ''
+Prompt:
+  TargetLanguage: English
+  Value: How does it work?

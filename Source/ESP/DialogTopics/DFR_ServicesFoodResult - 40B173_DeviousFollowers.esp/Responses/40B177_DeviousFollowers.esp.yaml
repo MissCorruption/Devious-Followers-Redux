@@ -1,0 +1,26 @@
+FormKey: 40B177:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Goodbye
+Topic: 40B173:DeviousFollowers.esp
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Keep it coming. I'm starving.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 40B179:DeviousFollowers.esp
+  ComparisonValue: 40B178:DeviousFollowers.esp

@@ -1,0 +1,18 @@
+FormKey: 3A5CB3:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+PreviousDialog: 3A5CB2:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Won't someone take pity on this poor slut? She needs every hole to be filled before she's satisfied.
+  ScriptNotes: ''
+  Edits: ''

@@ -1,0 +1,57 @@
+FormKey: 186AAD:DeviousFollowers.esp
+Flags: {}
+Topic: 186AAB:DeviousFollowers.esp
+PreviousDialog: 186AAC:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 186AAF:DeviousFollowers.esp
+- 186AB0:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: What I did? You drank that potion all by yourself. It's your fault that without my pussy juice, your vitality will fade away.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Look on the bright side. I think you'll love being my obedient little pussy licking pet for the rest of your life.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 3
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You can make me rich and make me cum, and always do exactly as you're told. It's not like you'd ever be anything without me anyway.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 186A9E:DeviousFollowers.esp
+  ComparisonValue: 20
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    MaleFemaleGender: Female
+  ComparisonValue: 1

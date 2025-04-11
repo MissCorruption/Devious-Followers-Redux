@@ -1,0 +1,8 @@
+FormKey: 1E9BB1:DeviousFollowers.esp
+EditorID: _DflowDealControllerBOM4
+Name:
+  TargetLanguage: English
+  Value: Dragon [<Global=_DflowDealDragonPrice> gold]
+Branch: 02243F:DeviousFollowers.esp
+Quest: 01C86D:DeviousFollowers.esp
+SubtypeName: CUST

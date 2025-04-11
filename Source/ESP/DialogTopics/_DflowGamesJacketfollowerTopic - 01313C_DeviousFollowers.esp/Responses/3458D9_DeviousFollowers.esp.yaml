@@ -1,0 +1,85 @@
+FormKey: 3458D9:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__093458D9
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TEMP
+      Object: 014172:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: D2
+      Object: 039C7D:Devious Devices - Expansion.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Debt
+      Object: 00C54F:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DE
+      Object: 014928:Devious Devices - Expansion.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: libs
+      Object: 00F624:Devious Devices - Integration.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: d
+      Object: 014929:Devious Devices - Expansion.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GameQ
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DE2
+      Object: 02D9E1:Devious Devices - Expansion.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__093458D9
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__093458D9
+      FragmentName: Fragment_11
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__093458D9
+      FragmentName: Fragment_10
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 014175:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Haha, of course my pet... I'll clear some of that debt of yours. That was fun, wasn't it?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 0110DC:DeviousFollowers.esp
+  ComparisonValue: 103
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 014172:DeviousFollowers.esp
+  ComparisonValue: 100
+Prompt:
+  TargetLanguage: English
+  Value: "*Sob*  I'm covered in their ... stuff ... can I stop now? Please?"

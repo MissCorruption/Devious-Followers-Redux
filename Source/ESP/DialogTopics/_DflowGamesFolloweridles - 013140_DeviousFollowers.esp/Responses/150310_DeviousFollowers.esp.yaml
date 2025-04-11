@@ -1,0 +1,59 @@
+FormKey: 150310:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_08150310
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_08150310
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_08150310
+      FragmentName: Fragment_1
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_08150310
+      FragmentName: Fragment_2
+Flags:
+  ResetHours: 11.999817
+PreviousDialog: 15030E:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: 'The poor dog looks exhausted. I feel sorry for it stuck knotted in that slut. I really should have her in my kennels. Guard! Pull it off her. '
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 0110DC:DeviousFollowers.esp
+  ComparisonValue: 403
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsScenePlayingConditionData
+    Scene: 14DB6D:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 050920:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 2F4838:DeviousFollowers.esp
+  ComparisonValue: 000039:Skyrim.esm

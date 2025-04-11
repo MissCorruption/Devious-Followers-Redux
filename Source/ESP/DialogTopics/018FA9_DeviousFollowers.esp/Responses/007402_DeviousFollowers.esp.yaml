@@ -1,0 +1,52 @@
+FormKey: 007402:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__0B007402
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: zad_Key
+      Object: 01775F:Devious Devices - Integration.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: zad_CKey
+      Object: 008A4F:Devious Devices - Integration.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: libs
+      Object: 00F624:Devious Devices - Integration.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF__0B007402
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__0B007402
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Random
+  ResetHours: 24
+PreviousDialog: 018FC4:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Let's see if I can get you out of that armbinder.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 00CA3A:Devious Devices - Assets.esm
+  ComparisonValue: 1

@@ -1,0 +1,8 @@
+FormKey: 01CDD3:DeviousFollowers.esp
+EditorID: _DflowDealControllerYes
+Name:
+  TargetLanguage: English
+  Value: Can we agree a new deal please?
+Branch: 01C86E:DeviousFollowers.esp
+Quest: 01C86D:DeviousFollowers.esp
+SubtypeName: CUST

@@ -1,0 +1,8 @@
+FormKey: 0ECABD:DeviousFollowers.esp
+EditorID: _DflowDealControllerBOS
+Name:
+  TargetLanguage: English
+  Value: Hopper [<Global=_DflowDealHopperPrice> gold]
+Branch: 02243F:DeviousFollowers.esp
+Quest: 01C86D:DeviousFollowers.esp
+SubtypeName: CUST

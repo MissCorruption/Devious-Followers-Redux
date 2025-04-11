@@ -1,0 +1,19 @@
+FormKey: 1034B8:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+PreviousDialog: 1034B7:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "*Pockets money* Thank you. I'll never get rich selling this worthless whore, but at least I can make some drinking money."
+  ScriptNotes: ''
+  Edits: ''

@@ -1,0 +1,75 @@
+FormKey: 029032:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_0A029032
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TEMP
+      Object: 014172:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Mittens
+      Object: 02324D:Devious Devices - Expansion.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Debt
+      Object: 00C54F:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DE
+      Object: 014928:Devious Devices - Expansion.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: libs
+      Object: 00F624:Devious Devices - Integration.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: d
+      Object: 014929:Devious Devices - Expansion.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GameQ
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DE2
+      Object: 02D9E1:Devious Devices - Expansion.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: D2
+      Object: 039C7D:Devious Devices - Expansion.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_0A029032
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0A029032
+      FragmentName: Fragment_10
+Flags:
+  Flags:
+  - Goodbye
+Topic: 01313C:DeviousFollowers.esp
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You're no fun. Oh well, now you owe me another 1500 gold.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 0110DC:DeviousFollowers.esp
+  ComparisonValue: 201
+Prompt:
+  TargetLanguage: English
+  Value: Mpppph! [Unlock me - pay 1500]

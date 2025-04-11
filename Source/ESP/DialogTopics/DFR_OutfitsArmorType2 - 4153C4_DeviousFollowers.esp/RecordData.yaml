@@ -1,0 +1,8 @@
+FormKey: 4153C4:DeviousFollowers.esp
+EditorID: DFR_OutfitsArmorType2
+Name:
+  TargetLanguage: English
+  Value: I'd like to wear mage robes instead.
+Branch: 4153C2:DeviousFollowers.esp
+Quest: 4153B8:DeviousFollowers.esp
+SubtypeName: CUST

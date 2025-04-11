@@ -1,0 +1,21 @@
+FormKey: 190941:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: There's no cure for that potion you drank. I paid dearly to be sure of that. Now you need to accept your fate. You can't live without me.
+  ScriptNotes: ''
+  Edits: ''
+Prompt:
+  TargetLanguage: English
+  Value: I can't... Please put an end to this!

@@ -1,0 +1,113 @@
+FormKey: 27AEAB:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__0A27AEAB
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MDC
+      Object: 1BD274:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__0A27AEAB
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0A27AEAB
+      FragmentName: Fragment_1
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0A27AEAB
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: 0A4D86:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 0089D9:DeviousFollowers.esp
+- 2AD939:DeviousFollowers.esp
+- 018233:DeviousFollowers.esp
+- 1173B2:DeviousFollowers.esp
+- 0392B2:DeviousFollowers.esp
+- 261983:DeviousFollowers.esp
+- 2B7B97:DeviousFollowers.esp
+- 29950F:DeviousFollowers.esp
+- 29E626:DeviousFollowers.esp
+- 2B7B8A:DeviousFollowers.esp
+- 2C1DA5:DeviousFollowers.esp
+- 2C6EED:DeviousFollowers.esp
+- 294407:DeviousFollowers.esp
+- 294408:DeviousFollowers.esp
+- 294404:DeviousFollowers.esp
+- 040EBD:DeviousFollowers.esp
+- 3B4FD9:DeviousFollowers.esp
+- 2AD93D:DeviousFollowers.esp
+- 4153BC:DeviousFollowers.esp
+- 3AFED0:DeviousFollowers.esp
+- 41F5FD:DeviousFollowers.esp
+- 41F5FE:DeviousFollowers.esp
+- 41F61C:DeviousFollowers.esp
+- 433A8A:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: What is it?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 100
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 38C70D:DeviousFollowers.esp
+  ComparisonValue: 38C70C:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: IsInSceneConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInDialogueWithPlayerConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 00EB21:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741874592
+    VariableName: ::Deals_var
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 8
+Prompt:
+  TargetLanguage: English
+  Value: About my debt and deals?

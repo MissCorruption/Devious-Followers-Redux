@@ -1,0 +1,30 @@
+FormKey: 15A1B1:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You need to understand that they're my deals to sell pet... While it was fun tricking you into becoming a deal slave, I want the money more than I want you.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: One thousand gold. But they'll have to pay you a lot more than that if they ever want to be free of those deals.
+  ScriptNotes: ''
+  Edits: ''

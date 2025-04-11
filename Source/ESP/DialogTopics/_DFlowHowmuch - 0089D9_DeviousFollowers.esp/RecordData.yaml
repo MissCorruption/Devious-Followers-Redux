@@ -1,0 +1,9 @@
+FormKey: 0089D9:DeviousFollowers.esp
+EditorID: _DFlowHowmuch
+Name:
+  TargetLanguage: English
+  Value: I'd like to pay you.
+Priority: 20
+Branch: 0089D7:DeviousFollowers.esp
+Quest: 000D62:DeviousFollowers.esp
+SubtypeName: CUST

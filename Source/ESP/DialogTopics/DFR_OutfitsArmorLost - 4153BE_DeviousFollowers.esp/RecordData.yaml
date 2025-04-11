@@ -1,0 +1,8 @@
+FormKey: 4153BE:DeviousFollowers.esp
+EditorID: DFR_OutfitsArmorLost
+Name:
+  TargetLanguage: English
+  Value: I lost my armor.
+Branch: 4153C2:DeviousFollowers.esp
+Quest: 4153B8:DeviousFollowers.esp
+SubtypeName: CUST

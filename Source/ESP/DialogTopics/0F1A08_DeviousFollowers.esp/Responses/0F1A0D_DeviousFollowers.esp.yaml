@@ -1,0 +1,30 @@
+FormKey: 0F1A0D:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+PreviousDialog: 119B81:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: >-
+      If she doesn't like it, maybe she should have got herself a husband. Too late for that now, nobody would marry these soiled goods.
+
+      Anyone could tell she was no use as an adventurer. No head for business, but at least she can fuck.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    MaleFemaleGender: Female
+  ComparisonValue: 1

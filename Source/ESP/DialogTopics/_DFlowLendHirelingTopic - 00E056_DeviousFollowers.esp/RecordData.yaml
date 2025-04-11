@@ -1,0 +1,9 @@
+FormKey: 00E056:DeviousFollowers.esp
+EditorID: _DFlowLendHirelingTopic
+Name:
+  TargetLanguage: English
+  Value: Want to join me and I'll pay you later? [Add <Global=HirelingGold> debt]
+Priority: 51
+Branch: 00E055:DeviousFollowers.esp
+Quest: 0151AE:DeviousFollowers.esp
+SubtypeName: CUST

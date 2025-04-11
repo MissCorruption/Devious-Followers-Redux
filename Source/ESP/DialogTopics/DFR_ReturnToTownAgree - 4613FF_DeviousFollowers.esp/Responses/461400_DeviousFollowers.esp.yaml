@@ -1,0 +1,29 @@
+FormKey: 461400:DeviousFollowers.esp
+VersionControl: 12642
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A461400
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A461400
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A461400
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 461405:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Get moving.
+  ScriptNotes: ''
+  Edits: ''

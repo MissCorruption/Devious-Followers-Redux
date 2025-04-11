@@ -1,0 +1,9 @@
+FormKey: 4613FF:DeviousFollowers.esp
+VersionControl: 12642
+EditorID: DFR_ReturnToTownAgree
+Name:
+  TargetLanguage: English
+  Value: Yes, master.
+Branch: 4613F9:DeviousFollowers.esp
+Quest: 433A92:DeviousFollowers.esp
+SubtypeName: CUST

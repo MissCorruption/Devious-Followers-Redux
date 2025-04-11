@@ -1,0 +1,25 @@
+FormKey: 0B139F:DeviousFollowers.esp
+Flags:
+  Flags:
+  - SayOnce
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 0AEC02:DeviousFollowers.esp
+- 0AEC03:DeviousFollowers.esp
+- 0AEC04:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I do, but I might need them... Do you want to play a game for them?
+  ScriptNotes: ''
+  Edits: ''
+Prompt:
+  TargetLanguage: English
+  Value: Do you have any device keys?

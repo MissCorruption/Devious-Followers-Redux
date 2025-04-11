@@ -1,0 +1,38 @@
+FormKey: 4153C7:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "You'll have to ask me about that when we get back to town. "
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 4153B8:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741774304
+    VariableName: ::CurrArmorType_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 354BEB:DeviousFollowers.esp
+  ComparisonValue: 000814:Adversity Framework.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 410291:DeviousFollowers.esp
+  ComparisonValue: 2

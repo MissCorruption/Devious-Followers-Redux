@@ -1,0 +1,42 @@
+FormKey: 4613F1:DeviousFollowers.esp
+VersionControl: 12642
+Flags:
+  Flags:
+  - Random
+  ResetHours: 0.9997711
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: That's right, keep a good pace, slave.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInCurrentLocAliasConditionData
+    LocationAliasIndex: 7
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 433A87:DeviousFollowers.esp
+  ComparisonValue: 000814:Adversity Framework.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 433A88:DeviousFollowers.esp
+  ComparisonValue: 10

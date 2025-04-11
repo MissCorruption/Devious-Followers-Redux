@@ -1,0 +1,38 @@
+FormKey: 25C87D:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: 234035:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 25C87F:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: The temple is always in need of donations.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: IsInListConditionData
+    FormList: 3365D2:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Global: 22C95B:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGoldConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+  ComparisonValue: 1000

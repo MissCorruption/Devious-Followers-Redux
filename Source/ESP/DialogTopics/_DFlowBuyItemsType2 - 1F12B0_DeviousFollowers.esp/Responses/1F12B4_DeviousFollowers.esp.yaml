@@ -1,0 +1,25 @@
+FormKey: 1F12B4:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 1F12A5:DeviousFollowers.esp
+- 1F12A3:DeviousFollowers.esp
+- 1F12AD:DeviousFollowers.esp
+- 1F12A7:DeviousFollowers.esp
+- 1F129F:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Sure
+  ScriptNotes: ''
+  Edits: ''
+Prompt:
+  TargetLanguage: English
+  Value: I need something exciting...

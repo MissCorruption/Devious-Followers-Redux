@@ -1,0 +1,8 @@
+FormKey: 4153D0:DeviousFollowers.esp
+EditorID: DFR_OutfitsSwapReject
+Name:
+  TargetLanguage: English
+  Value: I'm not wearing this!
+Branch: 4153CC:DeviousFollowers.esp
+Quest: 4153B8:DeviousFollowers.esp
+SubtypeName: CUST

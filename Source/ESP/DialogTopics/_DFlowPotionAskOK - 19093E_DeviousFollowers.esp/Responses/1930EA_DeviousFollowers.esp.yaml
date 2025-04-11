@@ -1,0 +1,38 @@
+FormKey: 1930EA:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_081930EA
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_081930EA
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_081930EA
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+  - Random
+PreviousDialog: 1930E8:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: '*Drinks vial* Of course you can have some my pet. I love your head between my legs. Thanks so much for drinking that potion.'
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    MaleFemaleGender: Female
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: Mistress... I need some of your delicious pussy juices... Please?

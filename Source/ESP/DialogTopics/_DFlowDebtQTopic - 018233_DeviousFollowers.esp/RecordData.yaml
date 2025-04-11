@@ -1,0 +1,9 @@
+FormKey: 018233:DeviousFollowers.esp
+EditorID: _DFlowDebtQTopic
+Name:
+  TargetLanguage: English
+  Value: How much do I owe you?
+Priority: 99
+Branch: 018232:DeviousFollowers.esp
+Quest: 000D62:DeviousFollowers.esp
+SubtypeName: CUST

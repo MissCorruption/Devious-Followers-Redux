@@ -1,0 +1,77 @@
+FormKey: 303B8C:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__09303B8C
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__09303B8C
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__09303B8C
+      FragmentName: Fragment_5
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__09303B8C
+      FragmentName: Fragment_6
+Flags:
+  Flags:
+  - Goodbye
+  - Random
+PreviousDialog: 021ECB:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Don't worry, I'll take your mind off your arms for you slut. Think about how helpless you are while I fuck you.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 354BE2:DeviousFollowers.esp
+  ComparisonValue: 000814:Adversity Framework.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 98
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 3
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 6
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 00CA3A:Devious Devices - Assets.esm
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: I'm a slut. And my arms hurt.

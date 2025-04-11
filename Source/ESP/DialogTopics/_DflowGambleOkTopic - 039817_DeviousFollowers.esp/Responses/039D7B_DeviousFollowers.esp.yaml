@@ -1,0 +1,45 @@
+FormKey: 039D7B:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_DFlow_07039D7B
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCM
+      Object: 00C545:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowGambleJPot
+      Object: 03E8F6:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlives
+      Object: 02DB9E:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_DFlow_07039D7B
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_DFlow_07039D7B
+      FragmentName: Fragment_3
+Flags:
+  Flags:
+  - Goodbye
+Topic: 0203C7:DeviousFollowers.esp
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Here we go. Good luck.  *Rolls dice*
+  ScriptNotes: ''
+  Edits: ''

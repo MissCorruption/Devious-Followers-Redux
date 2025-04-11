@@ -1,0 +1,49 @@
+FormKey: 41F5ED:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A41F5ED
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A41F5ED
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A41F5ED
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: 41F5EC:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 41A4E9:DeviousFollowers.esp
+- 41F5EF:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Feel that? Anytime you talk back to me or do something I don't like that's what you can expect.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: If you keep your mouth shut and pay attention, maybe your mind won't be mush by the time you pay what you owe.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 42986F:DeviousFollowers.esp
+  ComparisonValue: 3
+Prompt:
+  TargetLanguage: English
+  Value: You can't do that! I'll be no one's property!

@@ -1,0 +1,51 @@
+FormKey: 2AD93C:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__0A2AD93C
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__0A2AD93C
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0A2AD93C
+      FragmentName: Fragment_1
+Flags: {}
+Topic: 01C86F:DeviousFollowers.esp
+PreviousDialog: 2AD93B:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 2AD93D:DeviousFollowers.esp
+- 2AD93F:DeviousFollowers.esp
+- 2AD93E:DeviousFollowers.esp
+- 2AD954:DeviousFollowers.esp
+- 022440:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: What about them?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 38C70D:DeviousFollowers.esp
+  ComparisonValue: 38C70C:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741811712
+    VariableName: ::Deals_var
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: About my deals?

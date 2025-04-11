@@ -1,0 +1,8 @@
+FormKey: 022444:DeviousFollowers.esp
+EditorID: _DflowDealControllerBOH
+Name:
+  TargetLanguage: English
+  Value: Wolf [<Global=_DflowDealWolfPrice> gold]
+Branch: 02243F:DeviousFollowers.esp
+Quest: 01C86D:DeviousFollowers.esp
+SubtypeName: CUST

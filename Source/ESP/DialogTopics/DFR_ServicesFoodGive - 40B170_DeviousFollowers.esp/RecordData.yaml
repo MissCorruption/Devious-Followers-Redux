@@ -1,0 +1,8 @@
+FormKey: 40B170:DeviousFollowers.esp
+EditorID: DFR_ServicesFoodGive
+Name:
+  TargetLanguage: English
+  Value: '[Give Food] Here you go.'
+Branch: 40B16F:DeviousFollowers.esp
+Quest: 40B16E:DeviousFollowers.esp
+SubtypeName: CUST

@@ -1,0 +1,158 @@
+FormKey: 1A1EA9:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_081A1EA9
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Mitts
+      Object: 02324D:Devious Devices - Expansion.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EnslaveDebt
+      Object: 00C548:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Dtats
+      Object: 01A80B:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowItems
+      Object: 0559F0:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Collar
+      Object: 213D43:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: boots
+      Object: 03D2D4:Devious Devices - Expansion.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSNS
+      Object: 02F16E:SexLab.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSO
+      Object: 02F68A:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowItemsPerRemoved
+      Object: 03E8F3:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: libs
+      Object: 00F624:Devious Devices - Integration.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FreedomCost
+      Object: 00C549:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: msg
+      Object: 00A4DF:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: will
+      Object: 01A2A7:Update.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VNS
+      Object: 0FF9FB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shop
+      Object: 0559F4:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_081A1EA9
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_081A1EA9
+      FragmentName: Fragment_1
+Flags:
+  Flags:
+  - Goodbye
+  - Random
+  - RandomEnd
+Topic: 000D63:DeviousFollowers.esp
+PreviousDialog: 2EA620:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Look at you! Good for nothing. You can't pay me locked in some cursed device... I'll just take what I can.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 100
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Global: 0403E7:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 0403EA:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 0429FB:Devious Devices - Integration.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 00C54F:DeviousFollowers.esp
+  ComparisonValue: 00C548:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 112478:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741842368
+    VariableName: ::Enabled_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 112478:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741842336
+    VariableName: ::active_var
+  ComparisonValue: 1

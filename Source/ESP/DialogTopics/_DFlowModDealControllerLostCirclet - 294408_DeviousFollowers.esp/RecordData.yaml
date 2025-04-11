@@ -1,0 +1,8 @@
+FormKey: 294408:DeviousFollowers.esp
+EditorID: _DFlowModDealControllerLostCirclet
+Name:
+  TargetLanguage: English
+  Value: I'm sorry, I lost the circlet you gave me.
+Branch: 294403:DeviousFollowers.esp
+Quest: 1BD274:DeviousFollowers.esp
+SubtypeName: CUST

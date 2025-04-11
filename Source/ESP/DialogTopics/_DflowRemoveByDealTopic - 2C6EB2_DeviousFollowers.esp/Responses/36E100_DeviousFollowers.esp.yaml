@@ -1,0 +1,20 @@
+FormKey: 36E100:DeviousFollowers.esp
+Flags:
+  Flags:
+  - InvisibleContinue
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 2AD93D:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Excellent choice, let's see...
+  ScriptNotes: ''
+  Edits: ''

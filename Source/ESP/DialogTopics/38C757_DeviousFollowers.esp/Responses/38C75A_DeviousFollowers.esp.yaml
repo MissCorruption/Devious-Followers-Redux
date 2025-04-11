@@ -1,0 +1,18 @@
+FormKey: 38C75A:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+PreviousDialog: 38C759:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: This is going to be good.
+  ScriptNotes: ''
+  Edits: ''

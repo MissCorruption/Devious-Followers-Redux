@@ -1,0 +1,74 @@
+FormKey: 0EA310:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_090EA310
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GameQ
+      Object: 0110DC:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: d
+      Object: 014929:Devious Devices - Expansion.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TEMP
+      Object: 014172:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: libs
+      Object: 00F624:Devious Devices - Integration.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowDealBReaddTapeGag
+      Object: 0E7B73:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DE
+      Object: 014928:Devious Devices - Expansion.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_090EA310
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_090EA310
+      FragmentName: Fragment_7
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 0EA311:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 3
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "Ah, my mobile washroom! With all that fighting we've been doing, I really stink. I can't wait for a good fuck and wash. "
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 01C866:DeviousFollowers.esp
+  ComparisonValue: 4
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 98
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 03E8F4:Update.esm
+Prompt:
+  TargetLanguage: English
+  Value: Yes, I'm yours to use.

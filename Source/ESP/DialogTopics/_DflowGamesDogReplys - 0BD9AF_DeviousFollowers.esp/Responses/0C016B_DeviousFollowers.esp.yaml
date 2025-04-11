@@ -1,0 +1,102 @@
+FormKey: 0C016B:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_090C016B
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: libs
+      Object: 00F624:Devious Devices - Integration.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xlibs2
+      Object: 00CA01:Devious Devices - Expansion.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_090C016B
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_090C016B
+      FragmentName: Fragment_2
+Flags:
+  Flags:
+  - WalkAway
+PreviousDialog: 0C016A:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 0BD9B0:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Good dog *strokes hair*. Did you enjoy that? Do you want to stay as my little doggie?
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 3
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: It *would* be nice to put an end to your stupid chattering for good, and it's not like I *really* need you for anything else.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: But I suppose I'll let you out... Remember, this was just a taste. You know your place now, don't you? Work hard to please me, or else...
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 4
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: There are so many ways I could break you to total obedience. But it's so much more fun when you have a chance to resist, isn't it?
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 5
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: But I think you enjoyed this. You like being my pet already, don't you?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 0110DC:DeviousFollowers.esp
+  ComparisonValue: 404
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    Keyword: 01CD57:Skyrim.esm
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: '*whimper*'
+WalkAwayTopic: 0BD9B0:DeviousFollowers.esp

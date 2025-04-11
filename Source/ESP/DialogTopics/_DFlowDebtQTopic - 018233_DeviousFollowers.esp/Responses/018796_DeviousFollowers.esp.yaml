@@ -1,0 +1,91 @@
+FormKey: 018796:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_DFlow_0A018796
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowDebt0L
+      Object: 0E0482:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ
+      Object: 01A2A8:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowDebtHLR
+      Object: 0E047D:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowDebtHL
+      Object: 0E047C:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Debt
+      Object: 00C54F:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LivesM
+      Object: 02E663:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowDebtLL
+      Object: 0E0481:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowDebtML
+      Object: 0E047F:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowDebtMLR
+      Object: 0E047E:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: will
+      Object: 01A2A7:Update.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Lives
+      Object: 02DB9E:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowDebtLLR
+      Object: 0E0480:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_DFlow_0A018796
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_DFlow_0A018796
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Let's see?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 98
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 112478:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741895328
+    VariableName: ::Enabled_var
+  ComparisonValue: 1

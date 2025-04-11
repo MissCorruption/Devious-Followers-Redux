@@ -1,0 +1,43 @@
+FormKey: 4153CA:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A4153CA
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A4153CA
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A4153CA
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+Topic: 4153C3:DeviousFollowers.esp
+PreviousDialog: 4153C9:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: That can be arranged, but I am going to have to charge debt for the extra set.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 4153B8:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741773856
+    VariableName: ::CurrArmorType_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionGlobal
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 354BEB:DeviousFollowers.esp
+  ComparisonValue: 000814:Adversity Framework.esm

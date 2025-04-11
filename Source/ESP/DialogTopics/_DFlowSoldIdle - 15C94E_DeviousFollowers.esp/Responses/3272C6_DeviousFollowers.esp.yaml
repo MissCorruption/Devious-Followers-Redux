@@ -1,0 +1,70 @@
+FormKey: 3272C6:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__093272C6
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlow
+      Object: 000D62:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__093272C6
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__093272C6
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: 2B2A87:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I was thinking of selling you, but I've changed my mind. I think I'll keep you as my personal slave for a while.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 3272C5:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 15A1A4:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741852000
+    VariableName: ::Enable_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 15A1A4:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741851968
+    VariableName: ::active_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 010617:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741851936
+    VariableName: ::Suspend_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 15A1A4:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741851904
+    VariableName: ::Timer_var
+  ComparisonValue: 000039:Skyrim.esm

@@ -1,0 +1,16 @@
+FormKey: 0C0152:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: So helpless and vulnerable. I hope you're here to sell another slave to me? The Thalmor took a liking to the last one, and I let them buy her.
+  ScriptNotes: ''
+  Edits: ''

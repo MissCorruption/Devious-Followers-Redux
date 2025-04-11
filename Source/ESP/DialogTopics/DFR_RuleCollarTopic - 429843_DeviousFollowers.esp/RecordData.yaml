@@ -1,0 +1,8 @@
+FormKey: 429843:DeviousFollowers.esp
+EditorID: DFR_RuleCollarTopic
+Name:
+  TargetLanguage: English
+  Value: '[Collar] Can I stop wearing this collar?'
+Branch: 41F61D:DeviousFollowers.esp
+Quest: 41F61A:DeviousFollowers.esp
+SubtypeName: CUST

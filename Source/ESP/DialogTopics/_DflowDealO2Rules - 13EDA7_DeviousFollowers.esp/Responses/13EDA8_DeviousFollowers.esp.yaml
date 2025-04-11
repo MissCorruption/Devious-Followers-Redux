@@ -1,0 +1,37 @@
+FormKey: 13EDA8:DeviousFollowers.esp
+Flags:
+  Flags:
+  - WalkAway
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 13EDA5:DeviousFollowers.esp
+- 13EDA6:DeviousFollowers.esp
+- 13EDA9:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You tease yourself. I roll a die and if it comes up six, I'll remove the belt and fuck you. If not, you keep teasing yourself until I say stop.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: But you have to pay to play, so I'll add one day to a random deal.
+  ScriptNotes: ''
+  Edits: ''
+Prompt:
+  TargetLanguage: English
+  Value: What are the rules?
+WalkAwayTopic: 13EDA5:DeviousFollowers.esp

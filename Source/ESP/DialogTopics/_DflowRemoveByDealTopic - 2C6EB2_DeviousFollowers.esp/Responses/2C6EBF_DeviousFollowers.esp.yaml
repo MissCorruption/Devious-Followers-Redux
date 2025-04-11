@@ -1,0 +1,46 @@
+FormKey: 2C6EBF:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__0B2C6EBF
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__0B2C6EBF
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0B2C6EBF
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+  - WalkAway
+  - WalkAwayInvisibleInMenu
+Topic: 2AD93D:DeviousFollowers.esp
+PreviousDialog: 2C6EBE:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: That collar says you're property, but I want to own your pussy too. When I'm not using it, you'll need to wear a chastity belt.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741801632
+    VariableName: ::DealOffering_var
+  ComparisonValue: 23

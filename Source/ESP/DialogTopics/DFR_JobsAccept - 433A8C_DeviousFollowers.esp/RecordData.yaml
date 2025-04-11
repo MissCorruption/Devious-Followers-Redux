@@ -1,0 +1,8 @@
+FormKey: 433A8C:DeviousFollowers.esp
+EditorID: DFR_JobsAccept
+Name:
+  TargetLanguage: English
+  Value: Sounds good, let's do that.
+Branch: 433A89:DeviousFollowers.esp
+Quest: 433A83:DeviousFollowers.esp
+SubtypeName: CUST

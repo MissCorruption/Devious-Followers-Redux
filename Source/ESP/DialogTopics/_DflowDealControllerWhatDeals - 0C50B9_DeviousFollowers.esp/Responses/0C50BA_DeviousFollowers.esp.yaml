@@ -1,0 +1,44 @@
+FormKey: 0C50BA:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_080C50BA
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCM
+      Object: 00C545:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_080C50BA
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_080C50BA
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: These are the freedoms you sold me...
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741867840
+    VariableName: ::Deals_var
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: What are my deals?

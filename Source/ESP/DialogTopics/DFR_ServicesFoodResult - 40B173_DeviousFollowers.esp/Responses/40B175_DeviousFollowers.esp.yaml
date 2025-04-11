@@ -1,0 +1,36 @@
+FormKey: 40B175:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A40B175
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A40B175
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A40B175
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+Topic: 40B173:DeviousFollowers.esp
+PreviousDialog: 40B177:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Thanks, this should hit the spot.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 40B179:DeviousFollowers.esp
+  ComparisonValue: 40B178:DeviousFollowers.esp

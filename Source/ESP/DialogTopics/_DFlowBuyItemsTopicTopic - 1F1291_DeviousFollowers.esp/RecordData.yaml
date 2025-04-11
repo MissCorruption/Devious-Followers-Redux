@@ -1,0 +1,9 @@
+FormKey: 1F1291:DeviousFollowers.esp
+EditorID: _DFlowBuyItemsTopicTopic
+Name:
+  TargetLanguage: English
+  Value: Do you have any Devices?
+Priority: 0
+Branch: 1F1290:DeviousFollowers.esp
+Quest: 1F128F:DeviousFollowers.esp
+SubtypeName: CUST

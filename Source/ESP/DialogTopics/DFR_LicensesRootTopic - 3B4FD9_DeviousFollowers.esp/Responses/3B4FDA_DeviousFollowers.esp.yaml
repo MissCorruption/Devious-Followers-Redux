@@ -1,0 +1,66 @@
+FormKey: 3B4FDA:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A3B4FDA
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A3B4FDA
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A3B4FDA
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - WalkAway
+PreviousDialog: 429873:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 4102AC:DeviousFollowers.esp
+- 3B4FEA:DeviousFollowers.esp
+- 3B4FEC:DeviousFollowers.esp
+- 3B4FEB:DeviousFollowers.esp
+- 4102AD:DeviousFollowers.esp
+- 3B4FE6:DeviousFollowers.esp
+- 3B4FE3:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: What about them?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 3B4FD7:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741781984
+    VariableName: ::Enabled_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 3B4FD7:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741781952
+    VariableName: ::HandlingLicenses_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 38C70D:DeviousFollowers.esp
+  ComparisonValue: 38C70C:DeviousFollowers.esp
+Prompt:
+  TargetLanguage: English
+  Value: About my licenses?
+WalkAwayTopic: 3B4FE3:DeviousFollowers.esp

@@ -1,0 +1,18 @@
+FormKey: 4520DB:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+PreviousDialog: 4520DA:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I didn't give you permission to leave yet, whore.
+  ScriptNotes: ''
+  Edits: ''

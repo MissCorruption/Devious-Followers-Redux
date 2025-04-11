@@ -1,0 +1,8 @@
+FormKey: 429841:DeviousFollowers.esp
+EditorID: DFR_RuleCircletTopic
+Name:
+  TargetLanguage: English
+  Value: '[Circlet] Can I stop wearing this circlet?'
+Branch: 41F61D:DeviousFollowers.esp
+Quest: 41F61A:DeviousFollowers.esp
+SubtypeName: CUST

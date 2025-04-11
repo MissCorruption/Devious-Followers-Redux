@@ -1,0 +1,35 @@
+FormKey: 4613FD:DeviousFollowers.esp
+VersionControl: 12642
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A4613FD
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A4613FD
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A4613FD
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: As long as you stay in town, do whatever you want.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInCurrentLocAliasConditionData
+    LocationAliasIndex: 14
+  ComparisonValue: 1

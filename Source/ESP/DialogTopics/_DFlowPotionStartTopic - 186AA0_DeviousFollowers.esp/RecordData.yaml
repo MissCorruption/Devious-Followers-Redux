@@ -1,0 +1,9 @@
+FormKey: 186AA0:DeviousFollowers.esp
+EditorID: _DFlowPotionStartTopic
+Name:
+  TargetLanguage: English
+  Value: These deals... I'm a slave! Please, can't we stop this?
+Priority: 0
+Branch: 186A9F:DeviousFollowers.esp
+Quest: 186A9E:DeviousFollowers.esp
+SubtypeName: CUST

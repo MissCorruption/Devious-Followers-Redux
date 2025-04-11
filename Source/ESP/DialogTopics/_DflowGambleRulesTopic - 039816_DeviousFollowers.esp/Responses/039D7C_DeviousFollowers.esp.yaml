@@ -1,0 +1,43 @@
+FormKey: 039D7C:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_07039D7C
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowGambleRolls
+      Object: 0E0483:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowGambleRolls2
+      Object: 0E0484:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCM
+      Object: 00C545:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowGambleJPot
+      Object: 03E8F6:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NewProperty
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_07039D7C
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_07039D7C
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: These are the rules for the game.
+  ScriptNotes: ''
+  Edits: ''

@@ -1,0 +1,9 @@
+FormKey: 20EDFD:DeviousFollowers.esp
+EditorID: _DFlowDetectBugTopic
+Name:
+  TargetLanguage: English
+  Value: Are you stuck in a scene?
+Priority: 90
+Branch: 20EDFC:DeviousFollowers.esp
+Quest: 000D62:DeviousFollowers.esp
+SubtypeName: CUST

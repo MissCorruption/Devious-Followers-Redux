@@ -1,0 +1,8 @@
+FormKey: 1E9BAF:DeviousFollowers.esp
+EditorID: _DflowDealControllerBOM2
+Name:
+  TargetLanguage: English
+  Value: Spider [<Global=_DflowDealSpiderPrice> gold]
+Branch: 02243F:DeviousFollowers.esp
+Quest: 01C86D:DeviousFollowers.esp
+SubtypeName: CUST

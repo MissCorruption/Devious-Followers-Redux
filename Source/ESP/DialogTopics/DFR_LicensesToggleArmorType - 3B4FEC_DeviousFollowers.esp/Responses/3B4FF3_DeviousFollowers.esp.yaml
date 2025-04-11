@@ -1,0 +1,54 @@
+FormKey: 3B4FF3:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A3B4FF3
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 4102AB:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: What do you need one of those for? Everyone knows how much you love showing off your body.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 3B4FD7:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741779872
+    VariableName: ::HasGivenLicenses_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 2FEA65:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 2FEA5F:DeviousFollowers.esp
+- MutagenObjectType: ConditionGlobal
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 38C70D:DeviousFollowers.esp
+  ComparisonValue: 38C70C:DeviousFollowers.esp
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 00080E:Adversity Framework.esm
+Prompt:
+  TargetLanguage: English
+  Value: May I please have a regular armor license?

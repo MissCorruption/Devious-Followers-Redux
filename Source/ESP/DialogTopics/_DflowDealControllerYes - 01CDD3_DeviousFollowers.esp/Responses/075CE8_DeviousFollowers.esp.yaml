@@ -1,0 +1,37 @@
+FormKey: 075CE8:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - WalkAway
+PreviousDialog: 0CC791:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 075CE5:DeviousFollowers.esp
+- 01CDD9:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: When you talk to people, I want you to show off your piercings. Sometimes I'll check that you're still wearing them.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 06BE67:DeviousFollowers.esp
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741888864
+    VariableName: ::DealPMax_var
+  ComparisonValue: 3
+WalkAwayTopic: 075CE5:DeviousFollowers.esp

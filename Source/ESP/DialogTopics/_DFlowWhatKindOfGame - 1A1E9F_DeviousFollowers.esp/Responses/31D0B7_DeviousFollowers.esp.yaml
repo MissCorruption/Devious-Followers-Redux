@@ -1,0 +1,137 @@
+FormKey: 31D0B7:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__0931D0B7
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Mitts
+      Object: 02324D:Devious Devices - Expansion.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowEndlessMode
+      Object: 0403E7:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _Dtats
+      Object: 01A80B:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FreedomCost
+      Object: 00C549:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Collar
+      Object: 213D43:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: libs
+      Object: 00F624:Devious Devices - Integration.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SSO
+      Object: 02F68A:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: msg
+      Object: 00A4DF:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: R
+      Object: 0403E9:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: I
+      Object: 0403E8:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: boots
+      Object: 03D2D4:Devious Devices - Expansion.esm
+Flags:
+  Flags:
+  - Random
+  - WalkAway
+PreviousDialog: 1A1EA7:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 31D0B8:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You want to be my slave, don't you? Enough of the games... It's time to show you the firm hand you've been craving.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: From here on you'll be trained until you're fit to be my slave. Once you're a sufficiently obedient pet I might release you... one day.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 10
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 100
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 00C54F:DeviousFollowers.esp
+  ComparisonValue: 00C548:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 0403EA:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Global: 0403E7:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Global: 31D0B5:DeviousFollowers.esp
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 00C545:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741843456
+    VariableName: ::SkipToTheEnd_var
+WalkAwayTopic: 31D0B8:DeviousFollowers.esp

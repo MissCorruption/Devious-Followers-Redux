@@ -1,0 +1,19 @@
+FormKey: 1085D5:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+PreviousDialog: 1085D4:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "*Pockets money*  Don't worry about paying again. I can tell she wants to let you have this one for free. I'd swear she's addicted."
+  ScriptNotes: ''
+  Edits: ''

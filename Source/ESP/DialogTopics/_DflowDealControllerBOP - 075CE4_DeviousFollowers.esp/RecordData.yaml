@@ -1,0 +1,8 @@
+FormKey: 075CE4:DeviousFollowers.esp
+EditorID: _DflowDealControllerBOP
+Name:
+  TargetLanguage: English
+  Value: Wisp [<Global=_DflowDealWispPrice> gold]
+Branch: 02243F:DeviousFollowers.esp
+Quest: 01C86D:DeviousFollowers.esp
+SubtypeName: CUST

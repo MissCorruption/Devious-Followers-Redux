@@ -1,0 +1,48 @@
+FormKey: 3D871F:DeviousFollowers.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DFR_Containers
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Marker Storage Unit
+Flags:
+- IsInteriorCell
+- PublicArea
+Lighting:
+  AmbientColor: '#00808080'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#008D8086'
+    DirectionalXMinus: '#0073807A'
+    DirectionalYPlus: '#00808680'
+    DirectionalYMinus: '#00807A80'
+    DirectionalZPlus: '#003D3D3A'
+    DirectionalZMinus: '#00C3C3C6'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+WaterHeight: 0
+UnknownGroupData: 1
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 3D872C:DeviousFollowers.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 020673:Skyrim.esm
+  Placement:
+    Position: 399.43854, 30.254585, 1155.315
+MajorFlags:
+- 0x40000

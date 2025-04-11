@@ -1,0 +1,43 @@
+FormKey: 31D0BA:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__0931D0BA
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__0931D0BA
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0931D0BA
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+  - Random
+PreviousDialog: 31D0B9:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You need to think about your situation and what we agreed? You *are* my slave. It seems you're more in need of serious training than I thought.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: If you were serious about your responsibilities, you wouldn't be in this mess. Don't worry, you'll remain my pet until you've learned some sense.
+  ScriptNotes: ''
+  Edits: ''
+Prompt:
+  TargetLanguage: English
+  Value: What are you talking about? I'm not your slave!

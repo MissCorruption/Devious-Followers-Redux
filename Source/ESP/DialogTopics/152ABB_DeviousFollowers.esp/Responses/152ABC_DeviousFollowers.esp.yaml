@@ -1,0 +1,16 @@
+FormKey: 152ABC:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Good news slut. It's a six. You win a little time without your belt.
+  ScriptNotes: ''
+  Edits: ''

@@ -1,0 +1,16 @@
+FormKey: 152AC3:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Enjoy it. It'll be a while before the next one. *Locks belt back on*
+  ScriptNotes: ''
+  Edits: ''

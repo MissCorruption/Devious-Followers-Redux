@@ -1,0 +1,8 @@
+FormKey: 410282:DeviousFollowers.esp
+EditorID: DFR_ServicesPotionTopic
+Name:
+  TargetLanguage: English
+  Value: '[Give Potions] Here you go.'
+Branch: 410281:DeviousFollowers.esp
+Quest: 40B16E:DeviousFollowers.esp
+SubtypeName: CUST

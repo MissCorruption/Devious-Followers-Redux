@@ -1,0 +1,23 @@
+FormKey: 3221C0:DeviousFollowers.esp
+Flags: {}
+Topic: 3221BF:DeviousFollowers.esp
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You seemed to like that. So next time we'll do it for longer. With repeated training obedience will become instinctive. You want to obey, don't you?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 31D0B2:DeviousFollowers.esp
+  ComparisonValue: 80

@@ -1,0 +1,9 @@
+FormKey: 0048D1:DeviousFollowers.esp
+EditorID: DimissunallowedTopic
+Name:
+  TargetLanguage: English
+  Value: I don't need your help any longer.
+Priority: 5
+Branch: 0048D0:DeviousFollowers.esp
+Quest: 000D62:DeviousFollowers.esp
+SubtypeName: CUST

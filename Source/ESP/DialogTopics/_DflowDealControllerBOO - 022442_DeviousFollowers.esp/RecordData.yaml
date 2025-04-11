@@ -1,0 +1,8 @@
+FormKey: 022442:DeviousFollowers.esp
+EditorID: _DflowDealControllerBOO
+Name:
+  TargetLanguage: English
+  Value: Skeever [<Global=_DflowDealSkeeverPrice> gold]
+Branch: 02243F:DeviousFollowers.esp
+Quest: 01C86D:DeviousFollowers.esp
+SubtypeName: CUST

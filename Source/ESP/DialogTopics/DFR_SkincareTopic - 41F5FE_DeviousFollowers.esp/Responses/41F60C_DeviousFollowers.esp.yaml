@@ -1,0 +1,59 @@
+FormKey: 41F60C:DeviousFollowers.esp
+Flags:
+  Flags:
+  - WalkAway
+PreviousDialog: 41F614:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 41F611:DeviousFollowers.esp
+- 41F60D:DeviousFollowers.esp
+- 41F60E:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "All out, already? I don't have any extra. "
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Well, in the absence of the good stuff, you'll have to get it straight from the source. Just kneel down and I'll give you some.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 41F5F3:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741770336
+    VariableName: ::GaveSpecialLotion_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: GreaterThan
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 41F5F3:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741770304
+    VariableName: ::LastGivenTimer_var
+  ComparisonValue: 000039:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 41F5F3:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741770272
+    VariableName: ::FakeRanOut_var
+  ComparisonValue: 1
+WalkAwayTopic: 41F60E:DeviousFollowers.esp

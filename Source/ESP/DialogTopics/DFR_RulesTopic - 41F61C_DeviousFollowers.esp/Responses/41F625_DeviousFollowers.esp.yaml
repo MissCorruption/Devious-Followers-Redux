@@ -1,0 +1,68 @@
+FormKey: 41F625:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A41F625
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A41F625
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A41F625
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 41F624:DeviousFollowers.esp
+- 41F61E:DeviousFollowers.esp
+- 429834:DeviousFollowers.esp
+- 429869:DeviousFollowers.esp
+- 429830:DeviousFollowers.esp
+- 429837:DeviousFollowers.esp
+- 42983A:DeviousFollowers.esp
+- 42983D:DeviousFollowers.esp
+- 42983F:DeviousFollowers.esp
+- 429841:DeviousFollowers.esp
+- 429843:DeviousFollowers.esp
+- 429845:DeviousFollowers.esp
+- 429847:DeviousFollowers.esp
+- 429849:DeviousFollowers.esp
+- 42984D:DeviousFollowers.esp
+- 42986B:DeviousFollowers.esp
+- 42984F:DeviousFollowers.esp
+- 429851:DeviousFollowers.esp
+- 429853:DeviousFollowers.esp
+- 42986D:DeviousFollowers.esp
+- 429855:DeviousFollowers.esp
+- 429859:DeviousFollowers.esp
+- 429857:DeviousFollowers.esp
+- 42985B:DeviousFollowers.esp
+- 42985D:DeviousFollowers.esp
+- 42985F:DeviousFollowers.esp
+- 42984B:DeviousFollowers.esp
+- 429861:DeviousFollowers.esp
+- 429863:DeviousFollowers.esp
+- 429865:DeviousFollowers.esp
+- 429867:DeviousFollowers.esp
+- 4571DF:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Yes?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 41F61A:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741768256
+    VariableName: ::NumRules_var
+  ComparisonValue: 1

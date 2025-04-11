@@ -1,0 +1,8 @@
+FormKey: 4102B5:DeviousFollowers.esp
+EditorID: DFR_RelReplaceTrade
+Name:
+  TargetLanguage: English
+  Value: I need to trade some things with you.
+Branch: 4102B4:DeviousFollowers.esp
+Quest: 38C70D:DeviousFollowers.esp
+SubtypeName: CUST

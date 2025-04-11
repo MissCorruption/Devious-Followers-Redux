@@ -1,0 +1,16 @@
+FormKey: 38C719:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Your collar will make sure to keep you in line. In case you're wondering how it works, here's a taste.
+  ScriptNotes: ''
+  Edits: ''

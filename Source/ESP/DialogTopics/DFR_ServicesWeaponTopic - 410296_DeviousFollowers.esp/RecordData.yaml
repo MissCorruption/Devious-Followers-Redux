@@ -1,0 +1,8 @@
+FormKey: 410296:DeviousFollowers.esp
+EditorID: DFR_ServicesWeaponTopic
+Name:
+  TargetLanguage: English
+  Value: '[Give Weapon] Here you go.'
+Branch: 410295:DeviousFollowers.esp
+Quest: 40B16E:DeviousFollowers.esp
+SubtypeName: CUST

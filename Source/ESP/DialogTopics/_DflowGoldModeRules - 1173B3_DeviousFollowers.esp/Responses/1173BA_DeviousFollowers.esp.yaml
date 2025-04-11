@@ -1,0 +1,36 @@
+FormKey: 1173BA:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_DFlow_081173BA
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowGoldContRules
+      Object: 1173B9:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_DFlow_081173BA
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_DFlow_081173BA
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+  - ForceSubtitle
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: These are my conditions for helping you with gold...
+  ScriptNotes: ''
+  Edits: ''
+Prompt:
+  TargetLanguage: English
+  Value: What are the rules?

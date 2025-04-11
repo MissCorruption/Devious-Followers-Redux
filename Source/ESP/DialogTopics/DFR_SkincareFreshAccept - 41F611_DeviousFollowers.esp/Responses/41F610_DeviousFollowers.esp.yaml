@@ -1,0 +1,29 @@
+FormKey: 41F610:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A41F610
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A41F610
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A41F610
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+Topic: 41F60D:DeviousFollowers.esp
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Good little cumslut. Remember, don't rub it off until you're ready to apply a new layer.
+  ScriptNotes: ''
+  Edits: ''

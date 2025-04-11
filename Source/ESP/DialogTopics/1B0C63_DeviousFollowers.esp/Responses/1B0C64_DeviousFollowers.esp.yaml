@@ -1,0 +1,30 @@
+FormKey: 1B0C64:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_DFlow_081B0C64
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FQ
+      Object: 1ABD14:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_DFlow_081B0C64
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_DFlow_081B0C64
+      FragmentName: Fragment_2
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Good. We understand each other. *Unlocks cuffs*
+  ScriptNotes: ''
+  Edits: ''

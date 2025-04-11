@@ -1,0 +1,45 @@
+FormKey: 141550:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_08141550
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_08141550
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_08141550
+      FragmentName: Fragment_1
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_08141550
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+Topic: 13EDA5:DeviousFollowers.esp
+PreviousDialog: 14154F:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "*Rolls 12 sided die* Calm down. With a one in twelve chance, you'll probably get to cum at least once this month."
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C867:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741856288
+    VariableName: ::Stat_var
+  ComparisonValue: 20
+Prompt:
+  TargetLanguage: English
+  Value: I need to cum... I'll do anything! PLEASE!!!

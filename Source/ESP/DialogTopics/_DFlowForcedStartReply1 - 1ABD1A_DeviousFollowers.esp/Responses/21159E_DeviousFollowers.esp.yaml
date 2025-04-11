@@ -1,0 +1,41 @@
+FormKey: 21159E:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__0821159E
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF__0821159E
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__0821159E
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+  - WalkAway
+PreviousDialog: 1ABD1C:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Don't play games with me sissy! It's obvious to anyone that you're a slave. *Click* Come, let's go find your mistress...
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    MaleFemaleGender: Female
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: I'm not a slave!

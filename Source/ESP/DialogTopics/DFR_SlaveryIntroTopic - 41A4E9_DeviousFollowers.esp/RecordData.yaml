@@ -1,0 +1,9 @@
+FormKey: 41A4E9:DeviousFollowers.esp
+EditorID: DFR_SlaveryIntroTopic
+Name:
+  TargetLanguage: English
+  Value: DFR_SlaveryIntroTopic
+Priority: 255
+Branch: 41A4E8:DeviousFollowers.esp
+Quest: 42986F:DeviousFollowers.esp
+SubtypeName: CUST

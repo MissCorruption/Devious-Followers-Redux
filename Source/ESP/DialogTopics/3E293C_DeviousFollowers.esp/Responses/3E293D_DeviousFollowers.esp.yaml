@@ -1,0 +1,16 @@
+FormKey: 3E293D:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "I've got sizable living expenses too. Any gold you make me goes towards that first before your debt. "
+  ScriptNotes: ''
+  Edits: ''

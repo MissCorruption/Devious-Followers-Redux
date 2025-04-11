@@ -1,0 +1,95 @@
+FormKey: 095FE5:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_09095FE5
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DWillMed
+      Object: 03E8F5:Update.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowWill
+      Object: 01A2A7:Update.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowDealPMsgMWNo
+      Object: 095FDE:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DWillLow
+      Object: 03E8F4:Update.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowDealPMsgHW
+      Object: 095FD5:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowDealPMsgMWYes
+      Object: 095FDF:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowDealPMsgLWYes
+      Object: 095FDD:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowDealPMsgLWNo
+      Object: 095FD8:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_09095FE5
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_09095FE5
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 095FD2:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You might even enjoy it.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 023E70:Devious Devices - Assets.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 00CA39:Devious Devices - Assets.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 003DFA:Devious Devices - Assets.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 003330:Devious Devices - Assets.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 98
+Prompt:
+  TargetLanguage: English
+  Value: For sure.

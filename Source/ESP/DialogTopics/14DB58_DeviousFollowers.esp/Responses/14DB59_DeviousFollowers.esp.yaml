@@ -1,0 +1,16 @@
+FormKey: 14DB59:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Very cute and helpless. You're here to sell another slave to me? I'm afraid I sold the last one on to the Thalmor a few years ago now.
+  ScriptNotes: ''
+  Edits: ''

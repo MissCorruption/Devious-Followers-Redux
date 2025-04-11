@@ -1,0 +1,8 @@
+FormKey: 022440:DeviousFollowers.esp
+EditorID: _DflowDealControllerBuyOutTopic
+Name:
+  TargetLanguage: English
+  Value: I'd like to buy out of one of my deals.
+Branch: 02243F:DeviousFollowers.esp
+Quest: 01C86D:DeviousFollowers.esp
+SubtypeName: CUST

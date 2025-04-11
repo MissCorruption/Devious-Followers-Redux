@@ -1,0 +1,8 @@
+FormKey: 27AECA:DeviousFollowers.esp
+EditorID: _DFlowGuardConfessStart
+Name:
+  TargetLanguage: English
+  Value: I want to confess to a crime.
+Branch: 27AECC:DeviousFollowers.esp
+Quest: 26BB92:DeviousFollowers.esp
+SubtypeName: CUST

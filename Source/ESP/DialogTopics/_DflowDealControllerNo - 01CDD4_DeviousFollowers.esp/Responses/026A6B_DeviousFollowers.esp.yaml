@@ -1,0 +1,31 @@
+FormKey: 026A6B:DeviousFollowers.esp
+Flags:
+  Flags:
+  - InvisibleContinue
+  - WalkAway
+  - WalkAwayInvisibleInMenu
+PreviousDialog: 01CDD5:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 27AED0:DeviousFollowers.esp
+- 01CDD3:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Don't be shy, I know you want to... So here's the deal.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 6
+WalkAwayTopic: 27AED0:DeviousFollowers.esp

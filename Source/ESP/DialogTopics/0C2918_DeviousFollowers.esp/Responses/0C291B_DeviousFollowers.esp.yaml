@@ -1,0 +1,30 @@
+FormKey: 0C291B:DeviousFollowers.esp
+Flags:
+  Flags:
+  - ForceSubtitle
+  ResetHours: 11.999817
+PreviousDialog: 0C291A:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: (Someone...) *Whimper*  (Please...) *woof* (No... You've got to stop...)  *Woof woof Woof*
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: " (Oh... all ... the ... gods) *Woof... woof... bark* (No. No... I can't hold back...) *woof woof woof* (...cum!!) *Howwwll* "
+  ScriptNotes: ''
+  Edits: ''

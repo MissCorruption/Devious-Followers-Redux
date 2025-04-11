@@ -1,0 +1,9 @@
+FormKey: 016744:DeviousFollowers.esp
+EditorID: _DflowStarter2BlockerTopic
+Name:
+  TargetLanguage: English
+  Value: Hey, what's going on?
+Priority: 90
+Branch: 016743:DeviousFollowers.esp
+Quest: 0161E0:DeviousFollowers.esp
+SubtypeName: CUST

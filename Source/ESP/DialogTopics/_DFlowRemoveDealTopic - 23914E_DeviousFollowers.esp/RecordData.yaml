@@ -1,0 +1,8 @@
+FormKey: 23914E:DeviousFollowers.esp
+EditorID: _DFlowRemoveDealTopic
+Name:
+  TargetLanguage: English
+  Value: Alright. I'll take any deal, as long as you get this thing off me.
+Branch: 23914D:DeviousFollowers.esp
+Quest: 000D62:DeviousFollowers.esp
+SubtypeName: CUST

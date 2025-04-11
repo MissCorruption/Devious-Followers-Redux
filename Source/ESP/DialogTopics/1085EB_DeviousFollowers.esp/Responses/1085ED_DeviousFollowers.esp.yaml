@@ -1,0 +1,19 @@
+FormKey: 1085ED:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+PreviousDialog: 119B6F:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I see now. Stupid slut, if you're so useless you can't make 50g with your holes I'll have to add 50 debt instead.
+  ScriptNotes: ''
+  Edits: ''

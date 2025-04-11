@@ -1,0 +1,70 @@
+FormKey: 41F614:DeviousFollowers.esp
+Flags:
+  Flags:
+  - WalkAway
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 41F606:DeviousFollowers.esp
+- 41F607:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "Did you waste the last one I gave you? Because I don't have any extra. "
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Although, I have this stronger type I was holding onto in case you needed it...
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 3
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Would you like that?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 41F5F3:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741770592
+    VariableName: ::GaveSpecialLotion_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: GreaterThan
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 41F5F3:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741770560
+    VariableName: ::LastGivenTimer_var
+  ComparisonValue: 000039:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 41F5F3:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741770528
+    VariableName: ::FakeRanOut_var
+  ComparisonValue: 1
+WalkAwayTopic: 41F607:DeviousFollowers.esp

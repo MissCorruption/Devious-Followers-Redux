@@ -1,0 +1,49 @@
+FormKey: 3BA10E:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A3BA10E
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A3BA10E
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A3BA10E
+      FragmentName: Fragment_2
+Flags:
+  Flags:
+  - Random
+PreviousDialog: 382509:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You owe me for saving your ass. Lucky for you, I'm feeling generous this time.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 38C70D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741787008
+    VariableName: ::Favour_var
+  ComparisonValue: 50
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 382506:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741786976
+    VariableName: ::FollowerSavedPlayer_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1

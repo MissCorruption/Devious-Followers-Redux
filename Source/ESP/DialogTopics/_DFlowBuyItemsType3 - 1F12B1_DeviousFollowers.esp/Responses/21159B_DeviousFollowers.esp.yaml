@@ -1,0 +1,23 @@
+FormKey: 21159B:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 1F1296:DeviousFollowers.esp
+- 1F1299:DeviousFollowers.esp
+- 1F12A3:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: If you're sure...
+  ScriptNotes: ''
+  Edits: ''
+Prompt:
+  TargetLanguage: English
+  Value: Do you have any chastity aids?

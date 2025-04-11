@@ -1,0 +1,8 @@
+FormKey: 1DFD30:DeviousFollowers.esp
+EditorID: _DflowDealControllerBOM1
+Name:
+  TargetLanguage: English
+  Value: Moth [<Global=_DflowDealMothPrice> gold]
+Branch: 02243F:DeviousFollowers.esp
+Quest: 01C86D:DeviousFollowers.esp
+SubtypeName: CUST

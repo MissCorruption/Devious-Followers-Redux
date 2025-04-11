@@ -1,0 +1,32 @@
+FormKey: 03FE82:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - WalkAway
+PreviousDialog: 075CE8:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 03FE83:DeviousFollowers.esp
+- 01CDD9:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I'll pick an existing deal to extend to twice the normal time, for double debt reduction. [At least 7 days]
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741888768
+    VariableName: ::Deals_var
+  ComparisonValue: 9
+WalkAwayTopic: 03FE83:DeviousFollowers.esp

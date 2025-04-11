@@ -1,0 +1,16 @@
+FormKey: 4153DB:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I knew you would. I'm looking forward to seeing you in it.
+  ScriptNotes: ''
+  Edits: ''

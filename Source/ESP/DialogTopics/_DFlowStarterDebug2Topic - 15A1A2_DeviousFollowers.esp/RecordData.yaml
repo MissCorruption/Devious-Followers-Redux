@@ -1,0 +1,8 @@
+FormKey: 15A1A2:DeviousFollowers.esp
+EditorID: _DFlowStarterDebug2Topic
+Name:
+  TargetLanguage: English
+  Value: '[Debug: become my Devious Follower]'
+Branch: 15A1A1:DeviousFollowers.esp
+Quest: 0239EE:DeviousFollowers.esp
+SubtypeName: CUST

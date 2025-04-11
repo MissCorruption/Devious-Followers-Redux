@@ -1,0 +1,95 @@
+FormKey: 095FD0:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__09095FD0
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ToolsQuest
+      Object: 01210D:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF__09095FD0
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__09095FD0
+      FragmentName: Fragment_0
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__09095FD0
+      FragmentName: Fragment_1
+Flags:
+  Flags:
+  - Goodbye
+  - Random
+PreviousDialog: 06E607:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 073548:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: '*Your follower decides to show off your piercings and activate them*'
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    RunOnType: Target
+    Object: 000007:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 06BE67:DeviousFollowers.esp
+  ComparisonValue: 3
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 06BE67:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741876416
+    VariableName: ::Delay_var
+  ComparisonValue: 000039:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 98
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: IsInDialogueWithPlayerConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 0A8657:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: WornHasKeywordConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    Keyword: 06C0EC:Skyrim.esm
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: Hey!

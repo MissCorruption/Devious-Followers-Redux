@@ -1,0 +1,9 @@
+FormKey: 1BAAD7:DeviousFollowers.esp
+EditorID: _DflowSleepQuestInnForFollowerTopic
+Name:
+  TargetLanguage: English
+  Value: I'd like to rent a room for my friend (50 gold)
+Priority: 1
+Branch: 1BAAD6:DeviousFollowers.esp
+Quest: 01A2A8:DeviousFollowers.esp
+SubtypeName: CUST

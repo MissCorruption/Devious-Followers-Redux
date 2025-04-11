@@ -1,0 +1,51 @@
+FormKey: 132796:DeviousFollowers.esp
+Flags:
+  Flags:
+  - WalkAway
+PreviousDialog: 1173BE:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 132790:DeviousFollowers.esp
+- 132791:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You can, but if you do it today I'm keeping your credit. If you wait until tomorrow, maybe I'll change my mind.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 112478:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741858976
+    VariableName: ::AskForMore_var
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 112478:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741858944
+    VariableName: ::CredToLeaveBool_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 00C54F:DeviousFollowers.esp
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: I want you to stop controlling my gold!
+WalkAwayTopic: 132791:DeviousFollowers.esp

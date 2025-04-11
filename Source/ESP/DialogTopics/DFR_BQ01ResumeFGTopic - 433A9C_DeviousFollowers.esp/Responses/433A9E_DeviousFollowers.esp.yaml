@@ -1,0 +1,30 @@
+FormKey: 433A9E:DeviousFollowers.esp
+Flags:
+  Flags:
+  - WalkAway
+  - WalkAwayInvisibleInMenu
+PreviousDialog: 433A9D:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 433AA2:DeviousFollowers.esp
+- 433A9F:DeviousFollowers.esp
+- 433AA4:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Not too bad whore. We're gonna head back for the reward now.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 095125:Skyrim.esm
+  ComparisonValue: 100
+WalkAwayTopic: 433AA4:DeviousFollowers.esp

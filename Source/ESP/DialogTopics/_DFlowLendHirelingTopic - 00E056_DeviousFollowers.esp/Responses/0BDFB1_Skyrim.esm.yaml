@@ -1,0 +1,84 @@
+FormKey: 0BDFB1:Skyrim.esm
+Version2: 7
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_000BDFB1
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 1B5B9E:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Fac
+      Object: 015712:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HirelingRecognizeStenvar
+      Object: 104F3C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ra
+      Object: 000D62:DeviousFollowers.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HasHirelingGV
+      Object: 0BCC98:Skyrim.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_000BDFB1
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_000BDFB1
+      FragmentName: Fragment_0
+Flags: {}
+Topic: 0BCC84:Skyrim.esm
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: 'My blade is sharp and I thirst for battle. Onward, then! '
+  ScriptNotes: Excited.
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 2
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    ItemOrList: 00000F:Skyrim.esm
+  ComparisonValue: 0BCC96:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 0B9983:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 0BD738:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 0BCC9A:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 0BCC98:Skyrim.esm
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 10AB35:Skyrim.esm
+  ComparisonValue: 000039:Skyrim.esm

@@ -1,0 +1,16 @@
+FormKey: 1930FB:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Slave, I don't need to tell you anything.  Besides,  it won't kill you, so just  relax. This is between me and your owner... Do we have a deal?
+  ScriptNotes: ''
+  Edits: ''

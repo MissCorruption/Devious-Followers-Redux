@@ -1,0 +1,73 @@
+FormKey: 23914A:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__0D23914A
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF__0D23914A
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__0D23914A
+      FragmentName: Fragment_3
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__0D23914A
+      FragmentName: Fragment_2
+Flags: {}
+PreviousDialog: 2F483C:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I think you're deceiving yourself, but never mind. We'll see... We'll see...
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You should be more grateful I've kept you. The Jarl was willing to buy you. I could have made some good coin.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 3
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You'd have been stuck like that, barking away ... just a dog at his feet, giving him baths with your tongue to remind him to fuck you.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 4
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Sold from owner to owner as they tire of you. Probably you'd end up chained in a brothel as a mascot, or a breeder on a slave farm. Still barking.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 4
+Prompt:
+  TargetLanguage: English
+  Value: "... *Looks down* No. No. It isn't true. I was forced."

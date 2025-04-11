@@ -1,0 +1,56 @@
+FormKey: 41F60F:DeviousFollowers.esp
+Flags:
+  Flags:
+  - WalkAway
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 41F611:DeviousFollowers.esp
+- 41F60E:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Oh, you didn't figure it out already? I'm almost disappointed.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: That stronger stuff you've been rubbing on yourself? It's cum.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 3
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "And I wasn't kidding about its restorative properties which is why I want you to kneel down and get it fresh.You did agree to look after your skin, didn't you? "
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 41F5F3:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741768992
+    VariableName: ::GaveDirect_var
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: 'What do you mean?! '
+WalkAwayTopic: 41F60E:DeviousFollowers.esp

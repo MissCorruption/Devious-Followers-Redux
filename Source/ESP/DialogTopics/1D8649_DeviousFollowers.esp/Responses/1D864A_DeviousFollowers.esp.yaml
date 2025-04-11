@@ -1,0 +1,16 @@
+FormKey: 1D864A:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Greetings. How about a discount in exchange for the use of this slave?
+  ScriptNotes: ''
+  Edits: ''

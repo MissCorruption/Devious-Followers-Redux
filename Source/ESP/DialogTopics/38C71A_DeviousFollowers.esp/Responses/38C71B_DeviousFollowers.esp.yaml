@@ -1,0 +1,16 @@
+FormKey: 38C71B:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Not particularly pleasant, is it? Just remember that any time you think of disobeying.
+  ScriptNotes: ''
+  Edits: ''

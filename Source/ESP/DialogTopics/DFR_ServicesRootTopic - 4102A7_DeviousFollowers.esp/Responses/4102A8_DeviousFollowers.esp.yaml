@@ -1,0 +1,33 @@
+FormKey: 4102A8:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 4102A1:DeviousFollowers.esp
+- 40B170:DeviousFollowers.esp
+- 410296:DeviousFollowers.esp
+- 410282:DeviousFollowers.esp
+- 4102A9:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Yes?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestRunningConditionData
+    Quest: 40B16E:DeviousFollowers.esp
+  ComparisonValue: 1

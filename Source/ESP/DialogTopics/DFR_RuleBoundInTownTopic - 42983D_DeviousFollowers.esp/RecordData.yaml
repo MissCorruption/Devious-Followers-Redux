@@ -1,0 +1,8 @@
+FormKey: 42983D:DeviousFollowers.esp
+EditorID: DFR_RuleBoundInTownTopic
+Name:
+  TargetLanguage: English
+  Value: '[Bound in Town] May I stop being bound in town?'
+Branch: 41F61D:DeviousFollowers.esp
+Quest: 41F61A:DeviousFollowers.esp
+SubtypeName: CUST

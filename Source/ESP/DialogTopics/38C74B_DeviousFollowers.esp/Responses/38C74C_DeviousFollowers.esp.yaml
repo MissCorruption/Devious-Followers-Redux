@@ -1,0 +1,16 @@
+FormKey: 38C74C:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I just paid quite a bit for you and I expect you to repay me...with interest. Until then, you're my property to do with as I please.
+  ScriptNotes: ''
+  Edits: ''

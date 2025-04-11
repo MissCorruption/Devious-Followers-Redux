@@ -1,0 +1,9 @@
+FormKey: 00AFB8:DeviousFollowers.esp
+EditorID: _DFlowPayoff300
+Name:
+  TargetLanguage: English
+  Value: '[Pay 300]'
+Priority: 30
+Branch: 0089D7:DeviousFollowers.esp
+Quest: 000D62:DeviousFollowers.esp
+SubtypeName: CUST

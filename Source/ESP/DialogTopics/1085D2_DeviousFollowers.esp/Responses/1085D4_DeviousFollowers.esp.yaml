@@ -1,0 +1,19 @@
+FormKey: 1085D4:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+PreviousDialog: 1085D3:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "*Pockets money* I wouldn't be so rude as to charge you again for such a cheap slut."
+  ScriptNotes: ''
+  Edits: ''

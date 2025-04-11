@@ -1,0 +1,44 @@
+FormKey: 150318:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_08150318
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_08150318
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_08150318
+      FragmentName: Fragment_1
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_08150318
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: 150316:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Haha, you really can't hold out? It's hardly been any time at all, and you'll fuck a dog? Just to cum? What a slut.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C867:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741854272
+    VariableName: ::Stat_var
+  ComparisonValue: 200
+Prompt:
+  TargetLanguage: English
+  Value: It's too much! I'll fuck anything! Please... Just let me cum!

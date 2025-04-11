@@ -1,0 +1,8 @@
+FormKey: 4102A1:DeviousFollowers.esp
+EditorID: DFR_ServicesArrowsTopic
+Name:
+  TargetLanguage: English
+  Value: '[Give Arrows] Here you go.'
+Branch: 4102A0:DeviousFollowers.esp
+Quest: 40B16E:DeviousFollowers.esp
+SubtypeName: CUST

@@ -1,0 +1,45 @@
+FormKey: 2C6EC8:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__0B2C6EC8
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__0B2C6EC8
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__0B2C6EC8
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+  - WalkAway
+  - WalkAwayInvisibleInMenu
+Topic: 2AD93D:DeviousFollowers.esp
+PreviousDialog: 2C6EC7:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 2AD946:DeviousFollowers.esp
+- 2AD944:DeviousFollowers.esp
+- 2AD94A:DeviousFollowers.esp
+- 2AD94D:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Now you look like a whore, I think it's time to whore you out.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C86D:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741800192
+    VariableName: ::DealOffering_var
+  ComparisonValue: 43
+WalkAwayTopic: 2AD94A:DeviousFollowers.esp

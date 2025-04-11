@@ -1,0 +1,8 @@
+FormKey: 1E9BB0:DeviousFollowers.esp
+EditorID: _DflowDealControllerBOM3
+Name:
+  TargetLanguage: English
+  Value: Salmon [<Global=_DflowDealSalmonPrice> gold]
+Branch: 02243F:DeviousFollowers.esp
+Quest: 01C86D:DeviousFollowers.esp
+SubtypeName: CUST

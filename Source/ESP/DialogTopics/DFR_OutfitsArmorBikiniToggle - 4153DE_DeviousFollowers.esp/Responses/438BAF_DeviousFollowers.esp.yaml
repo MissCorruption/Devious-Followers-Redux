@@ -1,0 +1,38 @@
+FormKey: 438BAF:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A438BAF
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A438BAF
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A438BAF
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: 4153E0:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- Emotion: Surprise
+  EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: 'Sure, but that is going to cost you some gold. '
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 4153B8:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741772256
+    VariableName: ::BikiniArmor_var
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: "I'd like regular armour. "

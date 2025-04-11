@@ -1,0 +1,43 @@
+FormKey: 152AC9:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Deal_08152AC9
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Dealq
+      Object: 01C868:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Deal_08152AC9
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Deal_08152AC9
+      FragmentName: Fragment_4
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Deal_08152AC9
+      FragmentName: Fragment_5
+Flags:
+  Flags:
+  - Goodbye
+Topic: 01CDDB:DeviousFollowers.esp
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: This is how things ought to be ... and remember ... a deal is a deal.
+  ScriptNotes: ''
+  Edits: ''

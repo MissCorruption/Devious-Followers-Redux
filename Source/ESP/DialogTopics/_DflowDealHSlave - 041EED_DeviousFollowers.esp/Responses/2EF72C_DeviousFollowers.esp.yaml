@@ -1,0 +1,64 @@
+FormKey: 2EF72C:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: _Dx_TIF__092EF72C
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tool
+      Object: 01210D:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: _Dx_TIF__092EF72C
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__092EF72C
+      FragmentName: Fragment_3
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: _Dx_TIF__092EF72C
+      FragmentName: Fragment_5
+Flags:
+  Flags:
+  - Goodbye
+  - Random
+  - WalkAway
+  - WalkAwayInvisibleInMenu
+PreviousDialog: 2EF72A:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 041EED:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Slave, are you deaf?  Or are you just stupid? Looks like you need some training either way.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 000D62:DeviousFollowers.esp
+  ComparisonValue: 98
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 01A2A7:Update.esm
+  ComparisonValue: 10
+Prompt:
+  TargetLanguage: English
+  Value: This can't be happening...
+WalkAwayTopic: 041EED:DeviousFollowers.esp

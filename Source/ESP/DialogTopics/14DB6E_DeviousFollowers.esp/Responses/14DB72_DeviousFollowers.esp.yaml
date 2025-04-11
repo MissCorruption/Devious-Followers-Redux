@@ -1,0 +1,30 @@
+FormKey: 14DB72:DeviousFollowers.esp
+Flags:
+  Flags:
+  - ForceSubtitle
+  ResetHours: 11.999817
+PreviousDialog: 14DB71:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: (Get it out!) *WOOF! Growl!* (So big!) *BARK woof!* (Stretching...) *whimper* (Hot jizz pumping so deep) *whimper whimper ... Hooowwwll!*
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "(So deep!) *Bark!* (Too much...) *Woof. Bark.* (Can't hold back...) *Hoowwll!* (CUMMING!) *Bark!* (MORE MORE MORE!) *WOOF WOOF WOOF!* "
+  ScriptNotes: ''
+  Edits: ''

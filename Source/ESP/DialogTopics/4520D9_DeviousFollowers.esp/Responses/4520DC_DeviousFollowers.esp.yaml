@@ -1,0 +1,18 @@
+FormKey: 4520DC:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+PreviousDialog: 4520DB:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You better get back here before I fry whatever's left of your mind.
+  ScriptNotes: ''
+  Edits: ''

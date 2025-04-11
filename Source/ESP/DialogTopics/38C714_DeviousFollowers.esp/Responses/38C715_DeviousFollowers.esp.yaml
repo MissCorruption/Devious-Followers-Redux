@@ -1,0 +1,16 @@
+FormKey: 38C715:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "For as long as it takes you to pay off your debt to me, you're my property to do with as I see fit. "
+  ScriptNotes: ''
+  Edits: ''

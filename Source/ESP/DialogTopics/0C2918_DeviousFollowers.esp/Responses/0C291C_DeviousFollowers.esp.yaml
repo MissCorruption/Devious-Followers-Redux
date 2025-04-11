@@ -1,0 +1,30 @@
+FormKey: 0C291C:DeviousFollowers.esp
+Flags:
+  Flags:
+  - ForceSubtitle
+  ResetHours: 11.999817
+PreviousDialog: 0C291B:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: (Nooo I'm...) *Woof bark* (Stop! Stop!) *BARK BARK!* (Don't stop!) *Woof BARK!* (ah ah Ahh AHH AHHH!) *Howl! Hooowwll! ARROOOOHH!!*
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: (Please... Not again...) *Woof... Bark*  (Not again!) *BARK! WOOF!* (Yes! YES!)  *Arf! ARF!* (ah ah Ahh AHH AHHH!) *Howl! Hooowwll! ARROOOOHH!!*
+  ScriptNotes: ''
+  Edits: ''

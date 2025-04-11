@@ -1,0 +1,9 @@
+FormKey: 00A4E2:DeviousFollowers.esp
+EditorID: _DFlowBlindfold
+Name:
+  TargetLanguage: English
+  Value: Can you remove this blindfold? [<Global=_DFlowRemovalP>]
+Priority: 60
+Branch: 007408:DeviousFollowers.esp
+Quest: 1C494F:DeviousFollowers.esp
+SubtypeName: CUST

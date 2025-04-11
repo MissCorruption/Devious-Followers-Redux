@@ -1,0 +1,8 @@
+FormKey: 42986D:DeviousFollowers.esp
+EditorID: DFR_RuleMerchantTopic
+Name:
+  TargetLanguage: English
+  Value: '[Merchant] Can you stop offering me to merchants?'
+Branch: 41F61D:DeviousFollowers.esp
+Quest: 41F61A:DeviousFollowers.esp
+SubtypeName: CUST

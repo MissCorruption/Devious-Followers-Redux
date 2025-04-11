@@ -1,0 +1,42 @@
+FormKey: 4153D2:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A4153D2
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A4153D2
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A4153D2
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - InvisibleContinue
+  - WalkAway
+  - WalkAwayInvisibleInMenu
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 4153D6:DeviousFollowers.esp
+- 4153DC:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: "Don't worry, I just want to make a couple changes to what you're already wearing. "
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 4153B8:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741773216
+    VariableName: ::ProgressToNextSet_var
+  ComparisonValue: 1
+WalkAwayTopic: 4153DC:DeviousFollowers.esp

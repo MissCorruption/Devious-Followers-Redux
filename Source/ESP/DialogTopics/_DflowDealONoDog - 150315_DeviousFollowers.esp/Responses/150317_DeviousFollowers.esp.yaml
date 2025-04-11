@@ -1,0 +1,33 @@
+FormKey: 150317:DeviousFollowers.esp
+Flags:
+  Flags:
+  - WalkAway
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 13EDA5:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Right then, let's play the game again instead?
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C868:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741854176
+    VariableName: ::Stat_var
+  ComparisonValue: 200
+Prompt:
+  TargetLanguage: English
+  Value: I... No ... I won't do it!
+WalkAwayTopic: 13EDA5:DeviousFollowers.esp

@@ -1,0 +1,8 @@
+FormKey: 294407:DeviousFollowers.esp
+EditorID: _DFlowModDealControllerLostAmulet
+Name:
+  TargetLanguage: English
+  Value: I'm sorry, I lost the amulet you gave me.
+Branch: 294403:DeviousFollowers.esp
+Quest: 1BD274:DeviousFollowers.esp
+SubtypeName: CUST

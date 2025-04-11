@@ -1,0 +1,8 @@
+FormKey: 022443:DeviousFollowers.esp
+EditorID: _DflowDealControllerBOB
+Name:
+  TargetLanguage: English
+  Value: Bear [<Global=_DflowDealBearPrice> gold]
+Branch: 02243F:DeviousFollowers.esp
+Quest: 01C86D:DeviousFollowers.esp
+SubtypeName: CUST

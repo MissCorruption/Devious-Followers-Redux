@@ -1,0 +1,66 @@
+FormKey: 03CDF8:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_0703CDF8
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DFlowDealHelp
+      Object: 0E047B:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowDealOPTimer
+      Object: 03CDFD:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowDealBaseDebt
+      Object: 03CDFA:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowDealHP
+      Object: 03C891:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowDealHPTimer
+      Object: 03CDFE:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowDealBaseDays
+      Object: 03CDFB:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowDealBP
+      Object: 03C892:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowDealOP
+      Object: 03C890:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowDealMulti
+      Object: 03CDFC:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowDealBPTimer
+      Object: 03CDFF:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowDealBasePrice
+      Object: 03C88F:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_0703CDF8
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_0703CDF8
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+Topic: 039816:DeviousFollowers.esp
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: They work like this...
+  ScriptNotes: ''
+  Edits: ''
+Prompt:
+  TargetLanguage: English
+  Value: How do the deals work?

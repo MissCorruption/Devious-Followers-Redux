@@ -1,0 +1,23 @@
+FormKey: 18B9F9:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 18B9F8:DeviousFollowers.esp
+- 18B9F7:DeviousFollowers.esp
+- 18B9FD:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I might ask for money, or tie you up before I'll let you have what you crave. You're my pet, and you need to do as you're told or you won't get fed.
+  ScriptNotes: ''
+  Edits: ''
+Prompt:
+  TargetLanguage: English
+  Value: What terms?

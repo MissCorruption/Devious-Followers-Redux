@@ -1,0 +1,29 @@
+FormKey: 46140F:DeviousFollowers.esp
+VersionControl: 12642
+Flags:
+  Flags:
+  - InvisibleContinue
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 433A8A:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I found some work...
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 433A83:DeviousFollowers.esp
+    SecondUnusedIntParameter: -740696192
+    VariableName: ::JobFGFlag_var
+  ComparisonValue: 1

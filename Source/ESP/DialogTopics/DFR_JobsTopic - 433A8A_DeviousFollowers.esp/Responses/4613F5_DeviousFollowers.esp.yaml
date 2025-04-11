@@ -1,0 +1,57 @@
+FormKey: 4613F5:DeviousFollowers.esp
+VersionControl: 12642
+Flags:
+  Flags:
+  - Goodbye
+  - WalkAway
+  - WalkAwayInvisibleInMenu
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: It's late. Ask me when it's waking hours.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000038:Skyrim.esm
+  ComparisonValue: 4
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000038:Skyrim.esm
+  ComparisonValue: 19
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 00081B:Adversity Framework.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 433A83:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741416352
+    VariableName: ::FoundJob_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 433A83:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741416320
+    VariableName: ::RunningJob_var
+  ComparisonValue: 1

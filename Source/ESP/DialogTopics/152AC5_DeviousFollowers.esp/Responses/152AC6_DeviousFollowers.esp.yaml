@@ -1,0 +1,16 @@
+FormKey: 152AC6:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Yes, I felt like using you a lot today... getting more than one orgasm is a treat, so don't get used to it.
+  ScriptNotes: ''
+  Edits: ''

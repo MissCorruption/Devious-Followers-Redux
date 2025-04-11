@@ -1,0 +1,25 @@
+FormKey: 150313:DeviousFollowers.esp
+Flags:
+  Flags:
+  - WalkAway
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 150314:DeviousFollowers.esp
+- 150315:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: If you really can't hold out, I'll find a dog to fuck you? Or you can play the game again?
+  ScriptNotes: ''
+  Edits: ''
+Prompt:
+  TargetLanguage: English
+  Value: Really?
+WalkAwayTopic: 150314:DeviousFollowers.esp

@@ -1,0 +1,8 @@
+FormKey: 442DBF:DeviousFollowers.esp
+EditorID: DFR_BQ01PauseTopic
+Name:
+  TargetLanguage: English
+  Value: I'm sorry, I can't do this bounty right now.
+Branch: 442DBE:DeviousFollowers.esp
+Quest: 433A88:DeviousFollowers.esp
+SubtypeName: CUST

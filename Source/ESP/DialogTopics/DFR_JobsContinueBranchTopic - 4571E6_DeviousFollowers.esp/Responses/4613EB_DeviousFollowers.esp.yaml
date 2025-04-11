@@ -1,0 +1,36 @@
+FormKey: 4613EB:DeviousFollowers.esp
+VersionControl: 12642
+Flags:
+  Flags:
+  - InvisibleContinue
+PreviousDialog: 4571E7:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 433A8A:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: With that done, let's move onto something else...
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 433A83:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741670816
+    VariableName: ::ProvisionMode_var
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 433A83:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741423872
+    VariableName: ::ContinuingNextJob_var
+  ComparisonValue: 1

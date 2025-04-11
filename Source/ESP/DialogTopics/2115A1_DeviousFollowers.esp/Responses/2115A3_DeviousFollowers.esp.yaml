@@ -1,0 +1,37 @@
+FormKey: 2115A3:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF__082115A3
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FQ
+      Object: 1ABD14:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF__082115A3
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF__082115A3
+      FragmentName: Fragment_1
+Flags: {}
+PreviousDialog: 2115A2:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: You're in serious trouble sissy.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+  ComparisonValue: 1

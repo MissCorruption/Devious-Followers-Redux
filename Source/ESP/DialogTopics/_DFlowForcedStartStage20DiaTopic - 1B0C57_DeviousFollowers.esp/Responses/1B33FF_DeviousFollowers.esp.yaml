@@ -1,0 +1,60 @@
+FormKey: 1B33FF:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_081B33FF
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowDebtPerDay
+      Object: 00C547:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: q
+      Object: 000D62:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowForcedStartMessage
+      Object: 1B3401:DeviousFollowers.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _DflowEnslaveDebt
+      Object: 00C548:DeviousFollowers.esp
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_081B33FF
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_081B33FF
+      FragmentName: Fragment_1
+Flags: {}
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Stupid girl. I had to pay a fine for you. Until you pay me back - with interest - I'm not letting you out of my sight.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 1ABD14:DeviousFollowers.esp
+  ComparisonValue: 30
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsSexConditionData
+    RunOnType: Reference
+    Reference: 000014:Skyrim.esm
+    MaleFemaleGender: Female
+  ComparisonValue: 1
+Prompt:
+  TargetLanguage: English
+  Value: There's been some kind of mistake...

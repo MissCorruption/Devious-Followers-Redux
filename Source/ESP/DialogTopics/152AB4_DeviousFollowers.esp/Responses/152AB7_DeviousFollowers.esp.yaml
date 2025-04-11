@@ -1,0 +1,20 @@
+FormKey: 152AB7:DeviousFollowers.esp
+Flags:
+  Flags:
+  - Random
+  - ForceSubtitle
+  ResetHours: 11.999817
+PreviousDialog: 152AB6:DeviousFollowers.esp
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I understand... I know you need this, but moaning so loudly when your being fucked by an animal is disgusting.
+  ScriptNotes: ''
+  Edits: ''

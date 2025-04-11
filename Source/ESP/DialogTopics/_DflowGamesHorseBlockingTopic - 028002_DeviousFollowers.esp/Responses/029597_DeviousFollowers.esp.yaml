@@ -1,0 +1,33 @@
+FormKey: 029597:DeviousFollowers.esp
+Flags: {}
+PreviousDialog: 028ACC:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 028ACD:DeviousFollowers.esp
+- 028ACE:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I hope you've learned not to try and cheat me now? Give me a good neigh and I'll untie you.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 015712:DeviousFollowers.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 0110DC:DeviousFollowers.esp
+  ComparisonValue: 202
+Prompt:
+  TargetLanguage: English
+  Value: Mppph! [Please untie me]

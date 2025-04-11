@@ -1,0 +1,48 @@
+FormKey: 41F5EC:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A41F5EC
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A41F5EC
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A41F5EC
+      FragmentName: Fragment_0
+Flags: {}
+PreviousDialog: 433A8E:DeviousFollowers.esp
+FavorLevel: None
+LinkTo:
+- 41A4E9:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: I just paid quite a bit for you and I expect you to repay me...with interest.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Until then, you're my property to do with as I please.
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 42986F:DeviousFollowers.esp
+  ComparisonValue: 2
+Prompt:
+  TargetLanguage: English
+  Value: Purchased? What are you talking about!?

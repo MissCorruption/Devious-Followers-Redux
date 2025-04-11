@@ -1,0 +1,67 @@
+FormKey: 41F5F0:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DFR__TIF__0A41F5F0
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: DFR__TIF__0A41F5F0
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: DFR__TIF__0A41F5F0
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - InvisibleContinue
+  - WalkAway
+  - WalkAwayInvisibleInMenu
+PreviousDialog: Null
+FavorLevel: None
+LinkTo:
+- 41A4E9:DeviousFollowers.esp
+- 41F5F1:DeviousFollowers.esp
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Oh, I didn't know my new little whore was a legal scholar. Normally I'd shove a gag in your mouth but since you're clearly new to this, I'll explain.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 2
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Yes, technically both the Stormcloaks and the Imperials have outlawed slavery in the holds they control.
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 3
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: However, they've also relaxed requirements concerning the treatment of indentured servants, which you happen to be. Can't let those prisoners sit around in jail, can you?
+  ScriptNotes: ''
+  Edits: ''
+- EmotionValue: 50
+  ResponseNumber: 4
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: So for all intents and purposes, you are a slave. And that's why I can do this.
+  ScriptNotes: ''
+  Edits: ''
+WalkAwayTopic: 41F5F1:DeviousFollowers.esp

@@ -1,0 +1,44 @@
+FormKey: 150316:DeviousFollowers.esp
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TIF_Dflow_08150316
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    FileName: TIF_Dflow_08150316
+    OnBegin:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_08150316
+      FragmentName: Fragment_1
+    OnEnd:
+      ExtraBindDataVersion: 1
+      ScriptName: TIF_Dflow_08150316
+      FragmentName: Fragment_0
+Flags:
+  Flags:
+  - Goodbye
+PreviousDialog: Null
+FavorLevel: None
+Responses:
+- EmotionValue: 50
+  ResponseNumber: 1
+  Unknown2: 0x000000
+  Flags:
+  - UseEmotionAnimation
+  Unknown3: 0x000000
+  Text:
+    TargetLanguage: English
+    Value: Yuk! You will? I knew you were a slut, but agreeing to fuck a dog just so you can get an orgasm? Disgusting!
+  ScriptNotes: ''
+  Edits: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetVMQuestVariableConditionData
+    Quest: 01C867:DeviousFollowers.esp
+    SecondUnusedIntParameter: -741854464
+    VariableName: ::Stat_var
+  ComparisonValue: 200
+Prompt:
+  TargetLanguage: English
+  Value: "... I can't take it any longer... Yes. Alright. Please?"
