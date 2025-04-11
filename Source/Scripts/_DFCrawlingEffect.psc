@@ -1,1 +1,0 @@
-Scriptname _DFCrawlingEffect extends activemagiceffect  
